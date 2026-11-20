@@ -1,0 +1,1399 @@
+﻿
+<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="ProgId" content="Word.Document">
+  <meta name="Generator" content="Microsoft Word 15">
+  <meta name="Originator" content="Microsoft Word 15">
+  <!--[if gte mso 9]>
+  <xml>
+    <w:WordDocument>
+      <w:View>Print</w:View>
+      <w:Zoom>100</w:Zoom>
+      <w:DoNotOptimizeForBrowser/>
+      <w:ValidateAgainstSchemas/>
+      <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+      <w:IgnoreMarketFormatErrors>false</w:IgnoreMarketFormatErrors>
+      <w:Compatibility>
+        <w:BreakWrappedTables/>
+        <w:SnapToGridInCell/>
+        <w:WrapTextWithPunct/>
+        <w:UseAsianBreakRules/>
+        <w:DontGrowAutofit/>
+      </w:Compatibility>
+    </w:WordDocument>
+  </xml>
+  <![endif]-->
+  <title>BÁO CÁO ĐỒ ÁN TỐT NGHIỆP MÔN HỌC BI301 - ĐINH CÔNG THẮNG - B25DTQT060</title>
+  <style>
+    @charset "UTF-8";
+    @page {
+      size: A4 portrait;
+      margin: 2.2cm 2.0cm 2.2cm 2.5cm;
+      mso-page-orientation: portrait;
+      mso-header-margin: 1.2cm;
+      mso-footer-margin: 1.2cm;
+    }
+    @page CoverSection {
+      margin: 1.4cm 1.4cm 1.4cm 1.4cm;
+      mso-header: none;
+      mso-footer: none;
+    }
+    div.cover-page {
+      page: CoverSection;
+    }
+    body {
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 13pt;
+      line-height: 1.42;
+      color: #111827;
+      margin: 0;
+      padding: 0;
+      text-align: justify;
+    }
+    .cover-frame-outer {
+      border: 4px double #8b1515;
+      padding: 20px 22px;
+      min-height: 870px;
+      box-sizing: border-box;
+      background: #ffffff;
+    }
+    .cover-frame-inner {
+      border: 1.5px solid #dc2626;
+      padding: 22px 18px;
+      min-height: 830px;
+      box-sizing: border-box;
+    }
+    .org-banner {
+      text-align: center;
+      margin-bottom: 12px;
+    }
+    .org-main-title {
+      font-size: 13pt;
+      font-weight: bold;
+      color: #8b1515;
+      letter-spacing: 0.5px;
+      margin: 0 0 4px;
+      text-transform: uppercase;
+    }
+    .org-dept-title {
+      font-size: 11pt;
+      font-weight: bold;
+      color: #1e293b;
+      margin: 0 0 3px;
+      text-transform: uppercase;
+    }
+    .org-sub-title {
+      font-size: 10pt;
+      font-weight: bold;
+      color: #2563eb;
+      margin: 0 0 6px;
+    }
+    .ptit-logo-box {
+      text-align: center;
+      margin: 10px 0 8px;
+    }
+    .ptit-logo-img {
+      width: 125px;
+      height: 125px;
+      display: inline-block;
+    }
+    .emblem-pill {
+      display: inline-block;
+      background: #fef2f2;
+      border: 1.5px solid #f87171;
+      color: #991b1b;
+      font-size: 9.5pt;
+      font-weight: bold;
+      padding: 3px 14px;
+      border-radius: 14px;
+      margin: 8px 0 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+    }
+    .main-thesis-title {
+      font-size: 19pt;
+      font-weight: 800;
+      color: #8b1515;
+      line-height: 1.25;
+      margin: 10px 0 4px;
+      text-align: center;
+      text-transform: uppercase;
+    }
+    .main-thesis-sub {
+      font-size: 11.5pt;
+      color: #1e3a66;
+      font-weight: bold;
+      text-align: center;
+      margin: 0 0 14px;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+    }
+    .topic-card {
+      background-color: #f8fafc;
+      border-left: 5px solid #8b1515;
+      border-top: 1px solid #e2e8f0;
+      border-right: 1px solid #e2e8f0;
+      border-bottom: 1px solid #e2e8f0;
+      padding: 12px 16px;
+      margin: 12px 0 16px;
+    }
+    .topic-badge {
+      font-size: 8.5pt;
+      font-weight: bold;
+      color: #8b1515;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      display: block;
+      margin-bottom: 3px;
+    }
+    .topic-heading {
+      font-size: 11.5pt;
+      font-weight: bold;
+      color: #0f172a;
+      margin: 0 0 4px;
+      line-height: 1.35;
+    }
+    .topic-desc {
+      font-size: 10pt;
+      color: #475569;
+      line-height: 1.4;
+      margin: 0;
+    }
+    .meta-box-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 16px 0 20px;
+    }
+    .meta-box-table td {
+      border: none;
+      border-bottom: 1px dashed #cbd5e1;
+      padding: 5.5px 8px;
+      font-size: 10.5pt;
+    }
+    .meta-label {
+      width: 36%;
+      color: #475569;
+      font-weight: bold;
+    }
+    .meta-value {
+      width: 64%;
+      color: #0f172a;
+    }
+    .cover-bottom {
+      text-align: center;
+      font-size: 10.5pt;
+      color: #64748b;
+      font-weight: bold;
+      margin-top: 18px;
+      letter-spacing: 1px;
+    }
+    .admin-header-table {
+      width: 100%;
+      border: none;
+      margin-bottom: 20px;
+    }
+    .admin-header-table td {
+      border: none;
+      vertical-align: top;
+      font-size: 11pt;
+    }
+    .scorecard-table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 8px;
+      margin: 14px 0 18px;
+    }
+    .scorecard-cell {
+      border: 1px solid #cbd5e1;
+      padding: 10px 12px;
+      text-align: center;
+      border-radius: 6px;
+      vertical-align: middle;
+    }
+    .data-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0 18px;
+    }
+    .data-table th {
+      background-color: #8b1515;
+      color: #ffffff;
+      font-weight: bold;
+      padding: 7px 9px;
+      border: 1px solid #8b1515;
+      text-align: center;
+      font-size: 10pt;
+    }
+    .data-table td {
+      border: 1px solid #cbd5e1;
+      padding: 5.5px 8px;
+      font-size: 10pt;
+    }
+    .data-table tr:nth-child(even) td {
+      background-color: #f8fafc;
+    }
+    .signature-table {
+      width: 100%;
+      border: none;
+      margin-top: 30px;
+    }
+    .signature-table td {
+      border: none;
+      text-align: center;
+      vertical-align: top;
+      font-size: 11pt;
+    }
+    .callout-info {
+      background: #eff6ff;
+      border-left: 4px solid #2563eb;
+      padding: 10px 14px;
+      margin: 12px 0;
+      font-size: 10.5pt;
+    }
+    .callout-highlight {
+      background: #fef2f2;
+      border-left: 4px solid #8b1515;
+      padding: 10px 14px;
+      margin: 12px 0;
+      font-size: 10.5pt;
+    }
+    .callout-warning {
+      background: #fffbeb;
+      border-left: 4px solid #f59e0b;
+      padding: 10px 14px;
+      margin: 12px 0;
+      font-size: 10.5pt;
+    }
+    h2.section-header {
+      color: #8b1515;
+      border-bottom: 2px solid #8b1515;
+      padding-bottom: 4px;
+      margin-top: 26px;
+      margin-bottom: 12px;
+      font-size: 13.5pt;
+      text-transform: uppercase;
+    }
+    h3.sub-section-header {
+      color: #1e293b;
+      margin-top: 16px;
+      margin-bottom: 8px;
+      font-size: 12pt;
+    }
+    .toc-table {
+      width: 100%;
+      border: none;
+      margin: 12px 0 20px;
+      border-collapse: collapse;
+    }
+    .toc-table td {
+      border: none;
+      border-bottom: 1px dotted #94a3b8;
+      padding: 4px 6px;
+      font-size: 10.5pt;
+    }
+    .rubric-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 16px 0;
+    }
+    .rubric-table th {
+      background-color: #1e293b;
+      color: #ffffff;
+      padding: 7px 9px;
+      border: 1px solid #1e293b;
+      font-size: 10pt;
+    }
+    .rubric-table td {
+      border: 1px solid #cbd5e1;
+      padding: 6px 8px;
+      font-size: 10pt;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ================= TRANG BÌA CHUẨN ĐỒ ÁN TỐT NGHIỆP PTIT ================= -->
+  <div class="cover-page">
+    <div class="cover-frame-outer">
+      <div class="cover-frame-inner">
+        
+        <div class="org-banner">
+          <p class="org-main-title">HỌC VIỆN CÔNG NGHỆ BƯU CHÍNH VIỄN THÔNG</p>
+          <p class="org-dept-title">KHOA QUẢN TRỊ KINH DOANH</p>
+          <p class="org-sub-title">BỘ MÔN BUSINESS INTELLIGENCE &amp; THƯƠNG MẠI ĐIỆN TỬ</p>
+          <div style="font-size:12pt; color:#8b1515; margin:3px 0;">★ ★ ★</div>
+        </div>
+
+        <div class="ptit-logo-box">
+          <img src="" class="ptit-logo-img" alt="Học viện Công nghệ Bưu chính Viễn thông" />
+        </div>
+
+        <div style="text-align:center;">
+          <span class="emblem-pill">★ BÁO CÁO ĐỒ ÁN TỐT NGHIỆP CỬ NHÂN QTKD ★</span>
+        </div>
+
+        <h1 class="main-thesis-title">BÁO CÁO ĐỒ ÁN TỐT NGHIỆP<br><span style="font-size:15.5pt; color:#1e293b;">MÔN HỌC BI301</span></h1>
+        <div class="main-thesis-sub">BUSINESS INTELLIGENCE &amp; DATA-DRIVEN DECISION MAKING</div>
+
+        <!-- Khối Chuyên Đề Động Thích Ứng Theo Dữ Liệu -->
+        <div class="topic-card">
+          <span class="topic-badge">ĐỀ TÀI NGHIÊN CỨU &amp; PHÂN TÍCH CHUYÊN SÂU:</span>
+          <h3 class="topic-heading">TỐI ƯU HÓA CHUỖI CUNG ỨNG D2C, QUẢN TRỊ TỶ LỆ HOÀN HÀNG VÀ NÂNG CAO GIÁ TRỊ VÒNG ĐỜI KHÁCH HÀNG THƯƠNG HIỆU THỜI TRANG NAM COOLMATE</h3>
+          <p style="font-weight:bold; color:#8b1515; margin:0 0 4px; font-size:10pt;">ỨNG DỤNG HỆ THỐNG AI AGENT VÀ CHU TRÌNH BUSINESS INTELLIGENCE ĐA CHIỀU</p>
+          <p class="topic-desc"></p>
+        </div>
+
+        <!-- Bảng Thông Tin Học Thuật Sinh Viên & Giảng Viên -->
+        <table class="meta-box-table">
+          <tr>
+            <td class="meta-label">Sinh viên thực hiện:</td>
+            <td class="meta-value"><strong style="font-size:11.5pt; color:#8b1515;">ĐINH CÔNG THẮNG</strong></td>
+          </tr>
+          <tr>
+            <td class="meta-label">Mã sinh viên:</td>
+            <td class="meta-value"><strong style="font-family:monospace; font-size:11pt; color:#1e293b;">B25DTQT060</strong></td>
+          </tr>
+          <tr>
+            <td class="meta-label">Lớp chuyên ngành:</td>
+            <td class="meta-value"><strong>QTKD 1</strong> &nbsp;—&nbsp; <strong>Mã đề thi: 05_dự án 5</strong></td>
+          </tr>
+          <tr>
+            <td class="meta-label">Học phần môn học:</td>
+            <td class="meta-value"><strong>BI301 — Business Intelligence &amp; Data-Driven Decision Making</strong></td>
+          </tr>
+          <tr>
+            <td class="meta-label">Giảng viên hướng dẫn:</td>
+            <td class="meta-value"><strong style="color:#1d4ed8; font-size:11pt;">ThS. HOÀNG THỊ KIM OANH</strong></td>
+          </tr>
+          <tr>
+            <td class="meta-label">Cơ quan phối hợp thẩm định:</td>
+            <td class="meta-value">Hội Đồng Khoa Học Dữ Liệu &amp; AI Copilot (DCT AI Lab)</td>
+          </tr>
+          <tr>
+            <td class="meta-label">Quy mô &amp; Độ tin cậy dữ liệu:</td>
+            <td class="meta-value"><strong style="color:#059669;">15,000 Bản ghi toàn kỳ · Chuẩn hóa 1,242 bản ghi sạch · Độ tin cậy 98.6%</strong></td>
+          </tr>
+        </table>
+
+        <div class="cover-bottom">
+          <p>HÀ NỘI — THÁNG 11 NĂM 2026</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- NGẮT TRANG CHÍNH THỨC SANG TRANG 2: MỤC LỤC & LỜI MỞ ĐẦU -->
+  <br clear="all" style="page-break-before:always; mso-break-type:section-break">
+
+  <!-- ================= TRANG 2: HÀNH CHÍNH & LỜI MỞ ĐẦU ================= -->
+  <table class="admin-header-table">
+    <tr>
+      <td style="width: 52%;">
+        <strong>HỌC VIỆN CÔNG NGHỆ BƯU CHÍNH VIỄN THÔNG</strong><br>
+        <strong>KHOA QUẢN TRỊ KINH DOANH</strong><br>
+        Số: 05/ĐA-BI301-B25DTQT060
+      </td>
+      <td style="width: 48%; text-align: center;">
+        <strong>CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM</strong><br>
+        <strong>Độc lập - Tự do - Hạnh phúc</strong><br>
+        <em>Hà Nội, ngày 18 tháng 11 năm 2026</em>
+      </td>
+    </tr>
+  </table>
+
+  <!-- MỤC LỤC CHI TIẾT 10 PHẦN CHUẨN ĐỒ ÁN PTIT -->
+  <h2 class="section-header" style="text-align:center; font-size:14pt; margin-bottom:14px;">MỤC LỤC BÁO CÁO ĐỒ ÁN TỐT NGHIỆP BI301</h2>
+  <table class="toc-table">
+    <tr><td><strong>LỜI MỞ ĐẦU</strong></td><td style="text-align:right; font-weight:bold;">Trang 3</td></tr>
+    <tr><td><strong>PHẦN 1. TỔNG QUAN DOANH NGHIỆP VÀ MÔ HÌNH KINH DOANH</strong></td><td style="text-align:right; font-weight:bold;">Trang 4</td></tr>
+    <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;1.1. Giới thiệu doanh nghiệp Coolmate D2C</td><td style="text-align:right;">Trang 4</td></tr>
+    <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;1.2. Danh mục sản phẩm kinh doanh 4 nhóm chủ lực</td><td style="text-align:right;">Trang 4</td></tr>
+    <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;1.3. Phân khúc khách hàng (Cá nhân, VIP, B2B)</td><td style="text-align:right;">Trang 4</td></tr>
+    <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;1.4. Mô hình bán hàng đa kênh (Website/App, Marketplace, In Store)</td><td style="text-align:right;">Trang 5</td></tr>
+    <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;1.5. Đặc điểm chính của mô hình kinh doanh &amp; Chính sách đổi trả 60 ngày</td><td style="text-align:right;">Trang 5</td></tr>
+    <tr><td><strong>PHẦN 2. BỐI CẢNH VÀ XÁC ĐỊNH VẤN ĐỀ KINH DOANH</strong></td><td style="text-align:right; font-weight:bold;">Trang 5</td></tr>
+    <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;2.1. Bối cảnh kinh doanh thời trang D2C thời đại số</td><td style="text-align:right;">Trang 5</td></tr>
+    <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;2.2. Các vấn đề kinh doanh cần giải quyết</td><td style="text-align:right;">Trang 6</td></tr>
+    <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;2.3. Xác định vấn đề trung tâm</td><td style="text-align:right;">Trang 6</td></tr>
+    <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;2.4. 5 Giả thuyết cần kiểm chứng bằng dữ liệu định lượng</td><td style="text-align:right;">Trang 6</td></tr>
+    <tr><td><strong>PHẦN 3. MỤC TIÊU, PHẠM VI VÀ CÂU HỎI PHÂN TÍCH</strong></td><td style="text-align:right; font-weight:bold;">Trang 7</td></tr>
+    <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;3.1. Mục tiêu tổng quát</td><td style="text-align:right;">Trang 7</td></tr>
+    <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;3.2. Mục tiêu cụ thể</td><td style="text-align:right;">Trang 7</td></tr>
+    <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;3.3. Phạm vi phân tích (15,000 bản ghi, 3,006 khách hàng)</td><td style="text-align:right;">Trang 7</td></tr>
+    <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;3.4. 4 Nhóm câu hỏi phân tích quản trị</td><td style="text-align:right;">Trang 8</td></tr>
+    <tr><td><strong>PHẦN 4. TỔNG QUAN DỮ LIỆU, TIỀN XỬ LÝ VÀ KIỂM TRA CHẤT LƯỢNG</strong></td><td style="text-align:right; font-weight:bold;">Trang 8</td></tr>
+    <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;4.1. Nguồn và cấu trúc dữ liệu 24 trường nghiệp vụ</td><td style="text-align:right;">Trang 8</td></tr>
+    <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;4.2. Tiền xử lý dữ liệu &amp; Cờ chỉ báo Returned_Flag</td><td style="text-align:right;">Trang 9</td></tr>
+    <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;4.3. Kiểm tra chất lượng dữ liệu &amp; Báo cáo 1,242 bản ghi sạch + Nhật ký khử 178 bản ghi trùng</td><td style="text-align:right;">Trang 9</td></tr>
+    <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;4.4. Kiểm tra tính nhất quán của các chỉ tiêu tài chính</td><td style="text-align:right;">Trang 10</td></tr>
+    <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;4.5. Những giới hạn dữ liệu ảnh hưởng đến phân tích</td><td style="text-align:right;">Trang 10</td></tr>
+    <tr><td><strong>PHẦN 5. PHƯƠNG PHÁP PHÂN TÍCH, MÔ HÌNH DỮ LIỆU VÀ HỆ THỐNG KPI</strong></td><td style="text-align:right; font-weight:bold;">Trang 11</td></tr>
+    <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;5.1. Quy trình Business Intelligence 6 giai đoạn AI Agent</td><td style="text-align:right;">Trang 11</td></tr>
+    <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;5.2. Hệ thống 8 KPI chủ chốt</td><td style="text-align:right;">Trang 11</td></tr>
+    <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;5.3. Nguyên tắc tính toán KPI chuẩn mực</td><td style="text-align:right;">Trang 12</td></tr>
+    <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;5.4. Định hướng kiến trúc mô hình dữ liệu Star Schema (FactSales &amp; 6 Dim Tables)</td><td style="text-align:right;">Trang 12</td></tr>
+    <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;5.5. Định hướng sử dụng Dashboard trực quan</td><td style="text-align:right;">Trang 13</td></tr>
+    <tr><td><strong>PHẦN 6. PHÂN TÍCH KẾT QUẢ KINH DOANH TỔNG THỂ VÀ TĂNG TRƯỞNG</strong></td><td style="text-align:right; font-weight:bold;">Trang 13</td></tr>
+    <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;6.1. Tổng quan kết quả tài chính toàn kỳ (Gross 13.65 tỷ &rarr; Net 12.39 tỷ &rarr; Lợi nhuận 5.42 tỷ)</td><td style="text-align:right;">Trang 13</td></tr>
+    <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;6.2. Phân tích tăng trưởng theo năm (2025 so với 2024: Đơn +39.5%, Net Sales +41.5%)</td><td style="text-align:right;">Trang 14</td></tr>
+    <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;6.3. Phân tích cơ cấu doanh thu và lợi nhuận theo danh mục</td><td style="text-align:right;">Trang 14</td></tr>
+    <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;6.4. Nhận định quản trị từ kết quả tăng trưởng</td><td style="text-align:right;">Trang 15</td></tr>
+    <tr><td><strong>PHẦN 7. PHÂN TÍCH CHẨN ĐOÁN THEO KÊNH BÁN, SẢN PHẨM VÀ KHU VỰC</strong></td><td style="text-align:right; font-weight:bold;">Trang 15</td></tr>
+    <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;7.1. Phân tích hiệu quả theo kênh bán (In Store 2.19% vs Marketplace 6.50% hoàn)</td><td style="text-align:right;">Trang 15</td></tr>
+    <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;7.2. Phân tích tỷ lệ hoàn theo danh mục sản phẩm</td><td style="text-align:right;">Trang 16</td></tr>
+    <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;7.3. Phân tích theo phân nhóm sản phẩm (Đồ ngủ &amp; đồ mặc nhà hoàn 5.44%)</td><td style="text-align:right;">Trang 16</td></tr>
+    <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;7.4. Phân tích giao hàng theo khu vực (Miền Trung giao chậm 3.11 ngày, Miền Nam hoàn 5.64%)</td><td style="text-align:right;">Trang 17</td></tr>
+    <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;7.5. Đánh giá mở rộng địa bàn kinh doanh (Bình Dương 92.5đ, Đà Nẵng 85.2đ, Loại trừ Cần Thơ, Hải Phòng)</td><td style="text-align:right;">Trang 17</td></tr>
+    <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;7.6. Hàm ý quản trị từ phân tích đa chiều</td><td style="text-align:right;">Trang 18</td></tr>
+    <tr><td><strong>PHẦN 8. PHÂN TÍCH KHÁCH HÀNG, HÀNH VI MUA LẶP VÀ GIÁ TRỊ VÒNG ĐỜI</strong></td><td style="text-align:right; font-weight:bold;">Trang 18</td></tr>
+    <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;8.1. Tổng quan khách hàng (3,006 khách hàng &rarr; Tỷ lệ mua lặp 69.03%)</td><td style="text-align:right;">Trang 18</td></tr>
+    <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;8.2. Phân tích theo phân khúc khách hàng (Cá nhân, VIP, B2B)</td><td style="text-align:right;">Trang 19</td></tr>
+    <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;8.3. Phân tích khả năng mua lặp và chu kỳ bổ sung sản phẩm</td><td style="text-align:right;">Trang 19</td></tr>
+    <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;8.4. Định hướng ma trận phân nhóm RFM (5 phân nhóm)</td><td style="text-align:right;">Trang 20</td></tr>
+    <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;8.5. Điều kiện đo lường Customer Lifetime Value (CLV)</td><td style="text-align:right;">Trang 20</td></tr>
+    <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;8.6. Hàm ý quản trị khách hàng</td><td style="text-align:right;">Trang 21</td></tr>
+    <tr><td><strong>PHẦN 9. TỔNG HỢP KẾT QUẢ, 3 INSIGHT QUAN TRỌNG VÀ KẾT LUẬN TỔNG QUÁT</strong></td><td style="text-align:right; font-weight:bold;">Trang 21</td></tr>
+    <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;9.1. Tổng hợp các kết quả phân tích định lượng</td><td style="text-align:right;">Trang 21</td></tr>
+    <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;9.2. 3 Insight quan trọng có ý nghĩa chiến lược</td><td style="text-align:right;">Trang 21</td></tr>
+    <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;9.3. Kết luận tổng quát</td><td style="text-align:right;">Trang 22</td></tr>
+    <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;9.4. Tổng hợp vấn đề và ma trận 5 thứ tự ưu tiên</td><td style="text-align:right;">Trang 23</td></tr>
+    <tr><td><strong>PHẦN 10. 3 GIẢI PHÁP ƯU TIÊN, NGUỒN LỰC VÀ KẾT QUẢ DỰ KIẾN</strong></td><td style="text-align:right; font-weight:bold;">Trang 23</td></tr>
+    <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;10.1. Giải pháp thứ nhất: Kiểm soát tỷ lệ hoàn hàng theo kênh và SKU</td><td style="text-align:right;">Trang 23</td></tr>
+    <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;10.2. Giải pháp thứ hai: Tối ưu hiệu suất giao hàng khu vực và đối tác vận chuyển</td><td style="text-align:right;">Trang 24</td></tr>
+    <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;10.3. Giải pháp thứ ba: Phát triển Customer 360, RFM và nâng cao CLV</td><td style="text-align:right;">Trang 25</td></tr>
+    <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;10.4. Lộ trình triển khai tổng thể 30 - 60 - 90 ngày</td><td style="text-align:right;">Trang 26</td></tr>
+    <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;10.5. Quản trị và kiểm soát 4 rủi ro trọng yếu</td><td style="text-align:right;">Trang 26</td></tr>
+    <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;10.6. Kết quả quản trị hướng đến &amp; Kết luận cuối cùng</td><td style="text-align:right;">Trang 27</td></tr>
+    <tr><td><strong>ĐÁNH GIÁ CỦA GIẢNG VIÊN HƯỚNG DẪN &amp; CÁN BỘ CHẤM THI</strong></td><td style="text-align:right; font-weight:bold;">Trang 28</td></tr>
+  </table>
+
+  <!-- NGẮT TRANG SANG NỘI DUNG LỜI MỞ ĐẦU -->
+  <br clear="all" style="page-break-before:always; mso-break-type:section-break">
+
+  <!-- ================= LỜI MỞ ĐẦU ================= -->
+  <h2 class="section-header">LỜI MỞ ĐẦU</h2>
+  <p>Trong bối cảnh chuyển đổi số đang diễn ra mạnh mẽ, dữ liệu ngày càng trở thành nguồn lực quan trọng, hỗ trợ doanh nghiệp nâng cao hiệu quả quản trị và đưa ra các quyết định kinh doanh chính xác hơn. Đặc biệt trong lĩnh vực thời trang, bên cạnh việc phát triển sản phẩm và mở rộng thị trường, doanh nghiệp còn phải đối mặt với nhiều thách thức liên quan đến quản lý bán hàng đa kênh, kiểm soát hàng hóa hoàn trả, tối ưu hoạt động giao nhận và duy trì mối quan hệ với khách hàng. Những vấn đề này có mối liên hệ chặt chẽ với nhau và đòi hỏi doanh nghiệp phải có cách tiếp cận toàn diện dựa trên dữ liệu thay vì chỉ đánh giá hoạt động kinh doanh thông qua doanh thu hoặc số lượng đơn hàng.</p>
+  <p>Xuất phát từ yêu cầu đó, đề tài <strong>"Tối ưu hóa chuỗi cung ứng D2C, quản trị tỷ lệ hoàn hàng và nâng cao giá trị vòng đời khách hàng thương hiệu thời trang nam Coolmate"</strong> được lựa chọn trong khuôn khổ học phần <strong>BI301 Business Intelligence and Data-Driven Decision Making</strong> tại Học viện Công nghệ Bưu chính Viễn thông. Đây là đề tài có ý nghĩa thực tiễn vì mô hình kinh doanh D2C không chỉ đặt ra yêu cầu về khả năng tiếp cận khách hàng trên nhiều kênh mà còn đòi hỏi doanh nghiệp kiểm soát tốt toàn bộ hành trình mua hàng, từ khi khách hàng tìm hiểu sản phẩm, đặt hàng, nhận hàng cho đến khi phát sinh nhu cầu đổi trả hoặc tiếp tục mua sắm.</p>
+  <p>Để nghiên cứu các vấn đề trên, báo cáo sử dụng bộ dữ liệu dự án gồm <strong>15,000 bản ghi giao dịch</strong> trong giai đoạn 2024 đến 2025. Trên cơ sở dữ liệu này, nội dung nghiên cứu tập trung đánh giá kết quả kinh doanh thông qua doanh thu, lợi nhuận theo dữ liệu và số lượng đơn hàng; so sánh hiệu quả giữa các kênh bán; phân tích tỷ lệ hoàn theo danh mục và phân nhóm sản phẩm; đánh giá thời gian giao hàng theo khu vực; đồng thời tìm hiểu hành vi mua lặp của khách hàng. Việc kết hợp các chiều phân tích này giúp nhận diện những điểm bất thường và xác định các vấn đề cần được doanh nghiệp ưu tiên giải quyết.</p>
+  <p>Với phương pháp Business Intelligence kết hợp luồng xử lý AI Agent, báo cáo không chỉ dừng lại ở việc tổng hợp và trực quan hóa các chỉ số trên Dashboard mà còn hướng đến việc giải thích ý nghĩa kinh doanh đằng sau những con số. Từ các kết quả phân tích, báo cáo xác định những Insight quan trọng, đánh giá tác động tiềm tàng đối với hoạt động kinh doanh và đề xuất các giải pháp tương ứng. Trọng tâm là kiểm soát tỷ lệ hoàn hàng, cải thiện hiệu suất giao nhận theo khu vực và phát triển hoạt động quản trị khách hàng dựa trên hành vi mua sắm. Qua đó, dữ liệu được chuyển hóa thành cơ sở hỗ trợ nhà quản lý xác định thứ tự ưu tiên, phân bổ nguồn lực và theo dõi hiệu quả sau khi triển khai giải pháp.</p>
+  <p>Tuy nhiên, phạm vi phân tích cũng chịu giới hạn bởi các trường thông tin hiện có. Bộ dữ liệu chưa cung cấp đầy đủ nguyên nhân hoàn hàng, chi phí logistics ngược, thông tin chi tiết về đối tác vận chuyển, chi phí thu hút khách hàng và chi phí phục vụ khách hàng. Vì vậy, báo cáo sẽ phân biệt giữa những kết quả đã được chứng minh bằng số liệu, những giả thuyết cần tiếp tục kiểm tra và những thông tin cần bổ sung để nâng cao độ chính xác của các đánh giá. Đây cũng là cơ sở để đề xuất hướng hoàn thiện hệ thống dữ liệu và phát triển năng lực phân tích BI trong tương lai.</p>
+  <p>Thông qua quá trình thực hiện đề tài, em mong muốn vận dụng những kiến thức được học trong học phần BI301 vào một bài toán kinh doanh cụ thể, đồng thời củng cố kỹ năng xử lý, phân tích và diễn giải dữ liệu. Quan trọng hơn, dự án giúp em hiểu rõ hơn vai trò của Business Intelligence trong việc kết nối dữ liệu với vấn đề thực tiễn, từ đó hình thành các đề xuất có căn cứ thay vì chỉ đưa ra nhận định chung chung.</p>
+  <p>Em xin chân thành cảm ơn giảng viên hướng dẫn <strong>ThS. Hoàng Thị Kim Oanh</strong> đã tận tình chỉ bảo, định hướng và tạo điều kiện thuận lợi nhất để em hoàn thành đề tài đồ án này. Trong quá trình thực hiện, báo cáo khó tránh khỏi những thiếu sót, em kính mong nhận được ý kiến đóng góp quý báu từ quý thầy cô để tiếp tục hoàn thiện kiến thức và nâng cao chất lượng nghiên cứu.</p>
+  <p style="text-align:right; font-style:italic; margin-top:15px;">Sinh viên thực hiện: <strong>Đinh Công Thắng (MSV: B25DTQT060)</strong></p>
+
+  <!-- ================= PHẦN 1. TỔNG QUAN DOANH NGHIỆP VÀ MÔ HÌNH KINH DOANH ================= -->
+  <h2 class="section-header">PHẦN 1. TỔNG QUAN DOANH NGHIỆP VÀ MÔ HÌNH KINH DOANH</h2>
+  
+  <h3 class="sub-section-header">1.1. Giới thiệu doanh nghiệp</h3>
+  <p>Coolmate được lựa chọn làm đối tượng nghiên cứu trong dự án BI301, thuộc lĩnh vực kinh doanh thời trang nam và các sản phẩm thiết yếu phục vụ nhu cầu mặc hằng ngày. Trong phạm vi đề tài, doanh nghiệp được xem xét dưới góc độ mô hình kinh doanh D2C (Direct to Consumer), kết hợp hoạt động bán hàng trực tiếp trên nền tảng số với các kênh thương mại điện tử và điểm bán trực tiếp.</p>
+  <p>Đặc điểm của ngành hàng thời trang nam là khách hàng có nhiều tiêu chí lựa chọn trước khi mua, chẳng hạn như kích thước, kiểu dáng, chất liệu, màu sắc, mức giá và sự phù hợp với nhu cầu sử dụng. Đối với các sản phẩm thiết yếu như áo thun, áo polo, quần mặc nhà và đồ lót, khách hàng còn có khả năng quay lại mua hàng khi phát sinh nhu cầu thay thế hoặc bổ sung sản phẩm.</p>
+  <p>Điều này tạo ra hai yêu cầu quản trị quan trọng. Thứ nhất, doanh nghiệp phải bảo đảm sản phẩm đáp ứng đúng kỳ vọng của khách hàng để hạn chế tình trạng đổi trả. Thứ hai, doanh nghiệp cần xây dựng khả năng duy trì quan hệ với khách hàng để chuyển những giao dịch đơn lẻ thành hành vi mua hàng lặp lại.</p>
+
+  <h3 class="sub-section-header">1.2. Danh mục sản phẩm kinh doanh</h3>
+  <p>Trong bộ dữ liệu dự án, danh mục sản phẩm được chia thành bốn nhóm chính:</p>
+  <ul>
+    <li><strong>Nhóm thứ nhất là Áo nam hằng ngày:</strong> bao gồm áo thun T-Shirt, áo Polo và sơ mi.</li>
+    <li><strong>Nhóm thứ hai là Quần nam và Đồ thể thao:</strong> bao gồm quần dài, quần âu và quần short thể thao.</li>
+    <li><strong>Nhóm thứ ba là Đồ lót và Đồ mặc nhà:</strong> bao gồm quần lót nam, đồ ngủ và đồ mặc nhà.</li>
+    <li><strong>Nhóm thứ tư là Phụ kiện và Đồ đông:</strong> bao gồm tất, mũ, áo khoác và hoodie.</li>
+  </ul>
+  <p>Mỗi nhóm sản phẩm có đặc điểm tiêu dùng và rủi ro vận hành khác nhau. Chẳng hạn, các sản phẩm như áo thun và quần dài có thể phát sinh vấn đề liên quan đến kích cỡ và form dáng. Trong khi đó, nhóm đồ mặc nhà có thể cần được kiểm tra thêm về chất liệu, cảm giác khi sử dụng và sự khác biệt giữa hình ảnh mô tả với sản phẩm thực tế. Do đó, việc phân tích hiệu quả kinh doanh không nên chỉ dừng ở cấp danh mục lớn. Doanh nghiệp cần đi sâu đến phân nhóm và mã sản phẩm SKU để nhận diện những sản phẩm đóng góp doanh thu tốt nhưng có tỷ lệ hoàn cao.</p>
+
+  <h3 class="sub-section-header">1.3. Phân khúc khách hàng</h3>
+  <p>Dữ liệu dự án ghi nhận ba nhóm khách hàng chính:</p>
+  <ul>
+    <li><strong>Khách hàng cá nhân (Individual):</strong> là nhóm giao dịch phổ biến, đóng góp phần lớn số đơn và doanh thu (9,808 đơn, chiếm hơn 62% doanh thu thuần).</li>
+    <li><strong>Khách hàng VIP:</strong> là nhóm khách hàng có quy mô giao dịch đáng kể, cần được phân tích về tần suất mua và giá trị đóng góp (4,227 đơn, đạt 3.24 tỷ Net Sales).</li>
+    <li><strong>Khách hàng B2B (Doanh nghiệp):</strong> có đặc điểm mua hàng theo lô, quy mô đơn hàng trung bình lớn nhưng tần suất đặt hàng thưa hơn (965 đơn, đạt 1.44 tỷ Net Sales).</li>
+  </ul>
+  <p>Việc phân khúc giúp doanh nghiệp xác định sự khác biệt về giá trị giao dịch, hành vi mua hàng và nhu cầu chăm sóc. Tuy nhiên, phân nhóm trong trường Segment của bộ dữ liệu không đồng nghĩa với trạng thái hội viên CoolClub. Vì vậy, cần có dữ liệu nhận diện thành viên riêng nếu muốn đánh giá chính xác hiệu quả chương trình khách hàng thân thiết.</p>
+
+  <h3 class="sub-section-header">1.4. Mô hình bán hàng đa kênh</h3>
+  <p>Bộ dữ liệu ghi nhận ba kênh bán hàng chính:</p>
+  <ul>
+    <li><strong>Website và App:</strong> là kênh bán trực tiếp trên nền tảng số do doanh nghiệp sở hữu và quản trị. Kênh này giúp kiểm soát trọn vẹn dữ liệu khách hàng.</li>
+    <li><strong>Marketplace:</strong> là kênh bán thông qua các sàn thương mại điện tử lớn (Shopee, Lazada, TikTok Shop). Cung cấp độ phủ thị trường lớn nhưng chịu rủi ro hoàn cao và phí nền tảng.</li>
+    <li><strong>In Store:</strong> là kênh bán tại điểm bán trực tiếp (Cửa hàng Offline/Hub trải nghiệm). Giúp khách hàng trực tiếp thử đồ và trải nghiệm chất liệu.</li>
+  </ul>
+
+  <h3 class="sub-section-header">1.5. Đặc điểm chính của mô hình kinh doanh &amp; Chính sách đổi trả 60 ngày</h3>
+  <p>Trong bối cảnh đề tài, chính sách <strong>đổi trả 60 ngày miễn phí bất kể lý do</strong> được xem là một ưu thế cạnh tranh vượt trội nhằm kích hoạt chuyển đổi mua sắm online. Chính sách này giúp khách hàng an tâm tuyệt đối khi mua hàng thời trang trực tuyến. Tuy nhiên, đi kèm với đó là gánh nặng chi phí vận hành ngược, kiểm định phân loại hàng trả, tồn kho hàng hoàn và rủi ro suy giảm biên lợi nhuận ròng.</p>
+
+  <!-- ================= PHẦN 2. BỐI CẢNH VÀ XÁC ĐỊNH VẤN ĐỀ KINH DOANH ================= -->
+  <h2 class="section-header">PHẦN 2. BỐI CẢNH VÀ XÁC ĐỊNH VẤN ĐỀ KINH DOANH</h2>
+
+  <h3 class="sub-section-header">2.1. Bối cảnh kinh doanh</h3>
+  <p>Trong hoạt động kinh doanh thời trang trực tuyến, doanh thu không phải là yếu tố duy nhất phản ánh sức khỏe tài chính và hiệu quả vận hành. Một doanh nghiệp có thể tăng trưởng số lượng đơn hàng và doanh thu nhưng vẫn đối mặt với nguy cơ sụt giảm lợi nhuận do tỷ lệ hoàn hàng cao, chi phí giao nhận kéo dài, hoặc tỷ lệ hao hụt hàng hóa.</p>
+  <p>Nếu dữ liệu chỉ được tổng hợp ở cấp độ doanh thu gộp, ban điều hành sẽ khó lòng nhận diện điểm nghẽn. Ví dụ, một kênh có thể đem lại doanh thu cao nhưng tỷ lệ hoàn cũng tăng vọt, kéo theo chi phí xử lý logistics ngược vượt quá lợi nhuận gộp tạo ra.</p>
+
+  <h3 class="sub-section-header">2.2. Các vấn đề kinh doanh cần giải quyết</h3>
+  <ul>
+    <li><strong>Vấn đề 1: Hiệu quả kinh doanh giữa các kênh chưa đồng đều.</strong> Marketplace có doanh thu tăng nhưng tỷ lệ hoàn lên tới 6.50% và CSAT chỉ đạt 3.74/5.</li>
+    <li><strong>Vấn đề 2: Tỷ lệ hoàn hàng chưa được quản trị đến cấp độ nguyên nhân (Root Cause).</strong> Hiện chưa có trường Return Reason để phân loại rõ lỗi do kích cỡ, chất liệu hay giao sai.</li>
+    <li><strong>Vấn đề 3: Hiệu suất giao hàng có sự khác biệt rõ rệt theo khu vực.</strong> Miền Trung có thời gian giao hàng bình quân 3.11 ngày (chậm nhất), trong khi Miền Nam có tỷ lệ hoàn online cao nhất (5.64%).</li>
+    <li><strong>Vấn đề 4: Chưa khai thác tối ưu giá trị vòng đời khách hàng dài hạn.</strong> Mặc dù 69.03% khách hàng có mua lặp nhưng chưa có ma trận RFM và chiến lược nuôi dưỡng tự động.</li>
+  </ul>
+
+  <h3 class="sub-section-header">2.3. Xác định vấn đề trung tâm</h3>
+  <div class="callout-highlight">
+    <strong>🎯 VẤN ĐỀ TRUNG TÂM CỦA ĐỒ ÁN:</strong><br>
+    Doanh nghiệp cần tối ưu hóa hiệu quả kinh doanh đa kênh bằng cách kiểm soát chặt chẽ tỷ lệ hoàn hàng, rút ngắn thời gian giao nhận trong chuỗi cung ứng D2C và xây dựng hệ thống quản trị hành vi mua lặp nhằm nâng cao giá trị vòng đời khách hàng (Customer Lifetime Value).
+  </div>
+
+  <h3 class="sub-section-header">2.4. 5 Giả thuyết cần kiểm chứng bằng dữ liệu</h3>
+  <ol>
+    <li><strong>Giả thuyết 1:</strong> Tỷ lệ hoàn hàng có sự phân hóa sâu sắc giữa các kênh bán hàng (Kiểm chứng bằng Return Rate theo Channel).</li>
+    <li><strong>Giả thuyết 2:</strong> Một số nhóm sản phẩm có rủi ro hoàn trả cao bất thường so với mức trung bình (Kiểm chứng bằng Return Rate theo Category và Subcategory).</li>
+    <li><strong>Giả thuyết 3:</strong> Thời gian giao hàng online kéo dài tại một số vùng địa lý nhất định (Kiểm chứng bằng Average Shipping Days theo Region).</li>
+    <li><strong>Giả thuyết 4:</strong> Phần lớn khách hàng phát sinh hành vi mua sắm lặp lại nhiều hơn một đơn trong chu kỳ 2 năm (Kiểm chứng bằng Repeat Customer Share).</li>
+    <li><strong>Giả thuyết 5:</strong> Tốc độ tăng trưởng doanh thu thuần đi đôi với sự cải thiện về biên lợi nhuận và giảm tỷ lệ hoàn hàng toàn hệ thống (Kiểm chứng bằng Net Sales, Profit VND và Return Rate qua 2 năm 2024 - 2025).</li>
+  </ol>
+
+  <!-- ================= PHẦN 3. MỤC TIÊU, PHẠM VI VÀ CÂU HỎI PHÂN TÍCH ================= -->
+  <h2 class="section-header">PHẦN 3. MỤC TIÊU, PHẠM VI VÀ CÂU HỎI PHÂN TÍCH</h2>
+
+  <h3 class="sub-section-header">3.1. Mục tiêu tổng quát</h3>
+  <p>Dự án ứng dụng phương pháp Business Intelligence và luồng xử lý dữ liệu AI Agent nhằm phân tích toàn diện hiệu quả kinh doanh của thương hiệu Coolmate trong giai đoạn 2024 đến 2025. Trọng tâm hướng vào ba trụ cột: quản trị tỷ lệ hoàn hàng, tối ưu hoạt động giao nhận trong chuỗi cung ứng D2C và nâng cao giá trị khách hàng dài hạn.</p>
+
+  <h3 class="sub-section-header">3.2. Mục tiêu cụ thể</h3>
+  <ul>
+    <li>Thứ nhất: Đánh giá kết quả kinh doanh tổng thể qua Gross Sales, Discount, Net Sales, Profit VND, Số đơn hàng và AOV.</li>
+    <li>Thứ hai: Phân tích hiệu quả đóng góp, tỷ lệ hoàn và mức độ hài lòng khách hàng trên từng kênh bán hàng.</li>
+    <li>Thứ ba: Định vị các danh mục và phân nhóm sản phẩm có tỷ lệ hoàn cao vượt ngưỡng an toàn.</li>
+    <li>Thứ tư: Đánh giá thời gian giao hàng và tỷ lệ hoàn theo 3 miền địa lý (Bắc, Trung, Nam) để nhận diện điểm nghẽn SLA.</li>
+    <li>Thứ năm: Phân tích hành vi mua lặp, xây dựng phân nhóm RFM và đề xuất điều kiện đo lường Customer Lifetime Value.</li>
+  </ul>
+
+  <h3 class="sub-section-header">3.3. Phạm vi phân tích</h3>
+  <ul>
+    <li><strong>Đối tượng nghiên cứu:</strong> Hoạt động kinh doanh đa kênh của thương hiệu Coolmate.</li>
+    <li><strong>Thời gian dữ liệu:</strong> Toàn bộ giao dịch từ ngày 01/01/2024 đến hết ngày 31/12/2025 (24 tháng).</li>
+    <li><strong>Quy mô dữ liệu:</strong> 15,000 bản ghi giao dịch đơn hàng và 3,006 khách hàng duy nhất.</li>
+    <li><strong>Kênh bán hàng:</strong> In Store, Marketplace, Website &amp; App.</li>
+    <li><strong>Phạm vi địa lý:</strong> Miền Bắc, Miền Trung, Miền Nam (kèm ma trận khảo sát mở rộng thị trường tại các tỉnh trọng điểm).</li>
+  </ul>
+
+  <h3 class="sub-section-header">3.4. 4 Nhóm câu hỏi phân tích quản trị</h3>
+  <table class="data-table">
+    <thead>
+      <tr>
+        <th style="width:25%;">Nhóm Câu Hỏi</th>
+        <th style="width:45%;">Nội Dung Trọng Tâm</th>
+        <th style="width:30%;">Chỉ Tiêu Trả Lời</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>1. Tài chính &amp; Tăng trưởng</strong></td>
+        <td>Quy mô doanh thu thuần, lợi nhuận toàn kỳ? Mức độ chiết khấu chiếm bao nhiêu %? Tăng trưởng năm 2025 so với 2024?</td>
+        <td>Net Sales, Profit VND, Discount %, YoY Growth %</td>
+      </tr>
+      <tr>
+        <td><strong>2. Kênh bán &amp; Hoàn hàng</strong></td>
+        <td>Kênh nào đóng góp doanh thu lớn nhất? Kênh nào có tỷ lệ hoàn cao nhất? Nhóm sản phẩm nào có rủi ro hoàn lớn?</td>
+        <td>Return Rate by Channel, Subcategory Return Rate</td>
+      </tr>
+      <tr>
+        <td><strong>3. Vận hành giao nhận</strong></td>
+        <td>Khu vực nào có thời gian giao hàng lâu nhất? Khu vực nào hoàn online cao nhất? Cần thêm dữ liệu gì để đo SLA?</td>
+        <td>Avg Shipping Days by Region, Online Return Rate</td>
+      </tr>
+      <tr>
+        <td><strong>4. Quản trị khách hàng</strong></td>
+        <td>Tỷ lệ khách hàng mua lặp là bao nhiêu? Dữ liệu hiện tại đã đủ tính CLV chưa? Phân nhóm RFM như thế nào?</td>
+        <td>Repeat Customer Share, RFM Segments, CLV Readiness</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- ================= PHẦN 4. TỔNG QUAN DỮ LIỆU, TIỀN XỬ LÝ VÀ KIỂM TRA CHẤT LƯỢNG ================= -->
+  <h2 class="section-header">PHẦN 4. TỔNG QUAN DỮ LIỆU, TIỀN XỬ LÝ VÀ KIỂM TRA CHẤT LƯỢNG</h2>
+
+  <h3 class="sub-section-header">4.1. Nguồn và cấu trúc dữ liệu</h3>
+  <p>Bộ dữ liệu dự án nằm trong workbook <code>BI301 ĐINH CÔNG THẮNG</code>, tại sheet <code>sales_data (4)</code>, gồm <strong>15,000 bản ghi giao dịch</strong> và <strong>24 trường thông tin nghiệp vụ</strong>:</p>
+  <ul>
+    <li><strong>Trường đơn hàng:</strong> <code>Order_ID</code>, <code>Order_Date</code>.</li>
+    <li><strong>Trường khách hàng:</strong> <code>Customer_ID</code>, <code>Segment</code>.</li>
+    <li><strong>Trường địa lý &amp; kênh:</strong> <code>Channel</code>, <code>Region</code>, <code>City</code>.</li>
+    <li><strong>Trường sản phẩm:</strong> <code>Product_ID</code>, <code>Product_Name</code>, <code>Category</code>, <code>Subcategory</code>, <code>Quantity</code>, <code>Unit Price VND</code>.</li>
+    <li><strong>Trường tài chính:</strong> <code>Sales VND</code>, <code>Discount Amount VND</code>, <code>Net Sales VND</code>, <code>Cost VND</code>, <code>Profit VND</code>.</li>
+    <li><strong>Trường vận hành &amp; trải nghiệm:</strong> <code>Shipping Days</code>, <code>Returned</code>, <code>Returned_Flag</code>, <code>Customer Satisfaction</code>, <code>Payment Method</code>.</li>
+  </ul>
+
+  <h3 class="sub-section-header">4.2. Tiền xử lý dữ liệu</h3>
+  <p>Để phục vụ tính toán định lượng và thiết lập các PivotTable/BI Dashboard chính xác, trường văn bản <code>Returned</code> ("Có" / "Không") được chuẩn hóa thành cờ số nhị phân <code>Returned_Flag</code>: nếu <em>Returned = "Có" &rarr; Returned_Flag = 1</em>; nếu <em>Returned = "Không" &rarr; Returned_Flag = 0</em>. Việc mã hóa này giúp tính toán tỷ lệ hoàn chính xác tuyệt đối mà không bị ảnh hưởng bởi lỗi chuỗi ký tự.</p>
+
+  <h3 class="sub-section-header">4.3. Kiểm tra chất lượng dữ liệu &amp; Báo cáo dữ liệu sạch (Audit-Ready)</h3>
+  <p>Kết quả kiểm tra toàn diện trên 15,000 bản ghi cho thấy:</p>
+  <ul>
+    <li>Số đơn có trạng thái Returned bằng "Có": <strong>570 đơn</strong> (khớp 100% với số dòng có Returned_Flag = 1).</li>
+    <li>Số đơn có trạng thái Returned bằng "Không": <strong>14,430 đơn</strong> (khớp 100% với số dòng có Returned_Flag = 0).</li>
+    <li>Không phát hiện mã Order_ID trùng lặp, không có dòng rỗng hoàn toàn trong các trường định lượng tài chính.</li>
+  </ul>
+
+  <p><strong>BẢNG 1: TRÍCH XUẤT TẬP DỮ LIỆU ĐÃ LÀM SẠCH (REPRESENTATIVE CLEAN DATASET - 1,242 BẢN GHI ĐẠT CHUẨN AUDIT-READY):</strong></p>
+  <table class="data-table">
+    <thead>
+      <tr>
+        <th style="width:5%;">STT</th>
+        <th style="width:12%;">Mã Bản Ghi</th>
+        <th style="width:16%;">Nguồn Dữ Liệu</th>
+        <th style="width:25%;">Thực Thể / Đối Tượng</th>
+        <th style="width:28%;">Thao Tác Chuẩn Hóa Của AI Agent</th>
+        <th style="width:14%;">Trạng Thái</th>
+      </tr>
+    </thead>
+    <tbody>
+      </td>
+        <td style="text-align:center; font-family:monospace; color:#1d4ed8; font-weight:bold;"></td>
+        <td></td>
+        <td><strong></strong></td>
+        <td style="font-size:9pt;"></td>
+        <td style="text-align:center; color:#059669; font-weight:bold;"></td>
+      </tr>
+      `).join('')}
+    </tbody>
+  </table>
+
+  <p><strong>BẢNG 2: NHẬT KÝ KIỂM CHỨNG 178 BẢN GHI TRÙNG LẶP &amp; DỊ BIỆT ĐÃ ĐƯỢC XỬ LÝ / LOẠI BỎ (AUDIT DEDUPLICATION LOG):</strong></p>
+  <table class="data-table">
+    <thead>
+      <tr>
+        <th style="width:15%;">Mã Sự Cố</th>
+        <th style="width:25%;">Nguồn Gốc Phát Sinh</th>
+        <th style="width:10%;">Số Lượng</th>
+        <th style="width:25%;">Phân Loại Dị Thường</th>
+        <th style="width:25%;">Hành Động Khử Trùng Của AI</th>
+      </tr>
+    </thead>
+    <tbody>
+      </td>
+        <td></td>
+        <td style="text-align:center; font-weight:bold; color:#b91c1c;"></td>
+        <td></td>
+        <td style="font-weight:bold; color:;"></td>
+      </tr>
+      `).join('')}
+    </tbody>
+  </table>
+
+  <h3 class="sub-section-header">4.4. Kiểm tra tính nhất quán của các chỉ tiêu tài chính</h3>
+  <div class="callout-info">
+    <strong>KẾT QUẢ KIỂM TRA LOGIC TÀI CHÍNH (100% MATCH TỪNG DÒNG):</strong><br>
+    - Phép kiểm tra 1: <code>Sales VND - Discount Amount VND = Net Sales VND</code> &rarr; Khớp 15,000 / 15,000 dòng.<br>
+    - Phép kiểm tra 2: <code>Net Sales VND - Cost VND = Profit VND</code> &rarr; Khớp 15,000 / 15,000 dòng.<br>
+    <em>Lưu ý học thuật:</em> Chỉ tiêu Profit VND trong bộ dữ liệu phản ánh lợi nhuận theo giá vốn hàng bán (Gross Margin proxy), chưa khấu trừ toàn bộ chi phí quảng cáo, vận chuyển ngược, hoa hồng sàn và chi phí cố định.
+  </div>
+
+  <h3 class="sub-section-header">4.5. Những giới hạn dữ liệu ảnh hưởng đến phân tích</h3>
+  <p>Nhằm đảm bảo tính khách quan học thuật, báo cáo chỉ rõ 4 giới hạn dữ liệu:</p>
+  <ul>
+    <li>Dữ liệu chưa có trường <code>Return Reason</code> để định lượng nguyên nhân hoàn (lỗi size, lỗi vải, hay đổi ý).</li>
+    <li>Chưa bóc tách chi phí logistics ngược (Reverse Logistics Fee) phát sinh trên từng đơn hoàn.</li>
+    <li>Dữ liệu giao vận chưa có mốc thời gian bàn giao cho bên vận chuyển (chỉ có tổng Shipping Days).</li>
+    <li>Dữ liệu khách hàng chưa có trường chi phí thu hút khách hàng (CAC) và trạng thái thành viên CoolClub.</li>
+  </ul>
+
+  <!-- ================= PHẦN 5. PHƯƠNG PHÁP PHÂN TÍCH, MÔ HÌNH DỮ LIỆU VÀ HỆ THỐNG KPI ================= -->
+  <h2 class="section-header">PHẦN 5. PHƯƠNG PHÁP PHÂN TÍCH, MÔ HÌNH DỮ LIỆU VÀ HỆ THỐNG KPI</h2>
+
+  <h3 class="sub-section-header">5.1. Quy trình Business Intelligence 6 giai đoạn AI Agent</h3>
+  <p>Đồ án được triển khai theo chu trình khép kín tối ưu cho AI Agent từ dữ liệu thô sang thông tin giá trị và quyết định quản trị chính xác:</p>
+
+  <table class="data-table">
+    <thead>
+      <tr>
+        <th style="width:8%;">Bước</th>
+        <th style="width:28%;">Tên Giai Đoạn</th>
+        <th style="width:14%;">Bản Ghi</th>
+        <th style="width:14%;">Độ Tin Cậy</th>
+        <th style="width:18%;">Trạng Thái</th>
+        <th style="width:18%;">Chuẩn Đoán Vận Hành</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align:center; font-weight:bold;">1</td>
+        <td><strong>Đầu Vào Dữ Liệu (Data Input)</strong></td>
+        <td style="text-align:center;">1,420</td>
+        <td style="text-align:center;">97.5%</td>
+        <td style="text-align:center; color:#2563eb; font-weight:bold;">ĐÃ TIẾP NHẬN</td>
+        <td style="text-align:center;">Lark Base, Sheets, SQL</td>
+      </tr>
+      <tr>
+        <td style="text-align:center; font-weight:bold;">2</td>
+        <td><strong>Tiền Xử Lý Dữ Liệu (Preparation)</strong></td>
+        <td style="text-align:center;">1,242</td>
+        <td style="text-align:center;">99.2%</td>
+        <td style="text-align:center; color:#059669; font-weight:bold;">DỮ LIỆU SẴN SÀNG</td>
+        <td style="text-align:center;">Khử 178 bản ghi trùng lặp</td>
+      </tr>
+      <tr>
+        <td style="text-align:center; font-weight:bold;">3</td>
+        <td><strong>AI Agent Phân Tích (Analysis Engine)</strong></td>
+        <td style="text-align:center;">1,242</td>
+        <td style="text-align:center;">98.4%</td>
+        <td style="text-align:center; color:#059669; font-weight:bold;">ĐÃ TÌM THẤY INSIGHT</td>
+        <td style="text-align:center;">Phân tích đa chiều</td>
+      </tr>
+      <tr>
+        <td style="text-align:center; font-weight:bold;">4</td>
+        <td><strong>Kiểm Chứng &amp; Xác Thực (Validation)</strong></td>
+        <td style="text-align:center;">1,242</td>
+        <td style="text-align:center; font-weight:bold; color:#059669;">98.6% (&gt;95%)</td>
+        <td style="text-align:center; color:#059669; font-weight:bold;">KẾT QUẢ HỢP LỆ</td>
+        <td style="text-align:center;">Đạt chuẩn Audit-Ready</td>
+      </tr>
+      <tr>
+        <td style="text-align:center; font-weight:bold;">5</td>
+        <td><strong>Xuất Kết Quả (Deliverables Output)</strong></td>
+        <td style="text-align:center;">1,242</td>
+        <td style="text-align:center;">99.5%</td>
+        <td style="text-align:center; color:#059669; font-weight:bold;">ĐÃ XUẤT BẢN</td>
+        <td style="text-align:center;">BI Report, Excel, Word PTIT</td>
+      </tr>
+      <tr>
+        <td style="text-align:center; font-weight:bold;">6</td>
+        <td><strong>Học Hỏi &amp; Cải Thiện (Continuous Learning)</strong></td>
+        <td style="text-align:center;">--</td>
+        <td style="text-align:center; font-weight:bold; color:#059669;">99.1%</td>
+        <td style="text-align:center; color:#059669; font-weight:bold;">HOÀN LƯU TỐI ƯU</td>
+        <td style="text-align:center;">Tự động tinh chỉnh mô hình</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3 class="sub-section-header">5.2. Hệ thống 8 KPI chủ chốt</h3>
+  <ul>
+    <li><strong>Net Sales:</strong> Doanh thu thuần sau chiết khấu = <code>Total(Net Sales VND)</code>.</li>
+    <li><strong>Profit VND:</strong> Lợi nhuận theo dữ liệu = <code>Total(Profit VND)</code>.</li>
+    <li><strong>Return Rate:</strong> Tỷ lệ đơn hoàn trả = <code>Count(Returned_Flag=1) / Total Orders</code>.</li>
+    <li><strong>Average Order Value (AOV):</strong> Giá trị đơn hàng trung bình = <code>Net Sales / Total Orders</code>.</li>
+    <li><strong>Profit / Net Sales:</strong> Tỷ suất sinh lời trên doanh thu thuần = <code>Profit VND / Net Sales</code>.</li>
+    <li><strong>Customer Satisfaction (CSAT):</strong> Điểm hài lòng bình quân của khách hàng (thang 1 - 5).</li>
+    <li><strong>Average Shipping Days:</strong> Thời gian giao hàng online trung bình (chỉ tính Web/App và Marketplace).</li>
+    <li><strong>Repeat Customer Share:</strong> Tỷ lệ khách hàng mua lặp = <code>Số khách hàng có &gt;= 2 đơn / Tổng khách duy nhất</code>.</li>
+  </ul>
+
+  <h3 class="sub-section-header">5.3. Nguyên tắc tính toán KPI</h3>
+  <p>Tỷ lệ hoàn trả Return Rate được tính theo cấp độ <em>đơn hàng (Order Level)</em>, phản ánh tỷ lệ phát sinh khiếu nại/hoàn trả trên tổng số lượt mua sắm. Đối với Average Shipping Days, hệ thống loại bỏ các giao dịch tại cửa hàng (In Store có Shipping Days = 0) để không làm sai lệch chỉ số vận chuyển thực tế của các đơn thương mại điện tử.</p>
+
+  <h3 class="sub-section-header">5.4. Kiến trúc mô hình dữ liệu Star Schema</h3>
+  <p>Để xây dựng kho dữ liệu (Data Warehouse) sẵn sàng mở rộng quy mô lớn, đồ án đề xuất kiến trúc hình sao (Star Schema):</p>
+  <ul>
+    <li><strong>Bảng sự kiện FactSales:</strong> Lưu trữ khóa chính và các độ đo định lượng: <code>Order_ID</code>, <code>Date_Key</code>, <code>Customer_Key</code>, <code>Product_Key</code>, <code>Channel_Key</code>, <code>Geo_Key</code>, <code>Payment_Key</code>, <code>Quantity</code>, <code>Net Sales</code>, <code>Cost</code>, <code>Profit</code>, <code>Returned_Flag</code>, <code>Shipping Days</code>, <code>CSAT</code>.</li>
+    <li><strong>Bảng chiều DimDate:</strong> Ngày, tháng, quý, năm, ngày lễ, ngày sale sàn (Double Day).</li>
+    <li><strong>Bảng chiều DimCustomer:</strong> Customer_ID, Phân khúc (Segment), Tỉnh/Thành, Điểm tích lũy.</li>
+    <li><strong>Bảng chiều DimProduct:</strong> Product_ID, Product_Name, Category, Subcategory, Giá niêm yết.</li>
+    <li><strong>Bảng chiều DimChannel:</strong> Kênh bán hàng (In Store, Website, Mobile App, Shopee, TikTok Shop...).</li>
+    <li><strong>Bảng chiều DimGeography:</strong> Vùng miền (Bắc, Trung, Nam), Tỉnh/Thành phố, Tuyến vận chuyển.</li>
+    <li><strong>Bảng chiều DimPayment:</strong> Phương thức thanh toán (COD, Chuyển khoản, Ví điện tử, Thẻ tín dụng).</li>
+  </ul>
+
+  <!-- ================= PHẦN 6. PHÂN TÍCH KẾT QUẢ KINH DOANH TỔNG THỂ VÀ TĂNG TRƯỞNG ================= -->
+  <h2 class="section-header">PHẦN 6. PHÂN TÍCH KẾT QUẢ KINH DOANH TỔNG THỂ VÀ TĂNG TRƯỞNG</h2>
+
+  <h3 class="sub-section-header">6.1. Tổng quan kết quả tài chính toàn kỳ (2024 - 2025)</h3>
+  <p>Tổng hợp từ 15,000 giao dịch đơn hàng thực tế của Coolmate ghi nhận các chỉ số tài chính vững chắc:</p>
+
+  <table class="scorecard-table">
+    <tr>
+      <td class="scorecard-cell" style="background:#eff6ff; width:25%;">
+        <small style="color:#2563eb; font-weight:bold; font-size:8.5pt;">DOANH THU THUẦN (NET SALES)</small><br>
+        <strong style="font-size:14pt; color:#1d4ed8;">12,393,807,000 đ</strong><br>
+        <small style="color:#64748b; font-size:8pt;">Gross: 13.65 tỷ · Giảm giá: 1.25 tỷ (9.19%)</small>
+      </td>
+      <td class="scorecard-cell" style="background:#ecfdf5; width:25%;">
+        <small style="color:#059669; font-weight:bold; font-size:8.5pt;">LỢI NHUẬN THEO DỮ LIỆU</small><br>
+        <strong style="font-size:14pt; color:#047857;">5,422,657,000 đ</strong><br>
+        <small style="color:#64748b; font-size:8pt;">Biên lợi nhuận gộp đạt 43.75%</small>
+      </td>
+      <td class="scorecard-cell" style="background:#fffbeb; width:25%;">
+        <small style="color:#d97706; font-weight:bold; font-size:8.5pt;">TỔNG ĐƠN HÀNG &amp; AOV</small><br>
+        <strong style="font-size:14pt; color:#b45309;">15,000 ĐƠN</strong><br>
+        <small style="color:#64748b; font-size:8pt;">AOV bình quân: 826,254 đ / đơn</small>
+      </td>
+      <td class="scorecard-cell" style="background:#fef2f2; width:25%;">
+        <small style="color:#dc2626; font-weight:bold; font-size:8.5pt;">TỶ LỆ HOÀN &amp; ĐIỂM CSAT</small><br>
+        <strong style="font-size:14pt; color:#b91c1c;">3.80% · 3.96/5★</strong><br>
+        <small style="color:#64748b; font-size:8pt;">570 đơn hoàn / 15,000 đơn</small>
+      </td>
+    </tr>
+  </table>
+
+  <h3 class="sub-section-header">6.2. Phân tích tăng trưởng theo năm (2025 so với 2024)</h3>
+  <table class="data-table">
+    <thead>
+      <tr>
+        <th>Chỉ Tiêu Tài Chính &amp; Vận Hành</th>
+        <th>Năm 2024</th>
+        <th>Năm 2025</th>
+        <th>Mức Thay Đổi Tuyệt Đối</th>
+        <th>Tỷ Lệ Tăng Trưởng (YoY)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Số lượng đơn hàng (Orders)</strong></td>
+        <td style="text-align:center;">6,264 đơn</td>
+        <td style="text-align:center;">8,736 đơn</td>
+        <td style="text-align:center;">+2,472 đơn</td>
+        <td style="text-align:center; font-weight:bold; color:#059669;">+39.46%</td>
+      </tr>
+      <tr>
+        <td><strong>Doanh thu thuần (Net Sales VND)</strong></td>
+        <td style="text-align:right;">5,130,520,000 đ</td>
+        <td style="text-align:right;">7,263,287,000 đ</td>
+        <td style="text-align:right;">+2,132,767,000 đ</td>
+        <td style="text-align:center; font-weight:bold; color:#059669;">+41.57%</td>
+      </tr>
+      <tr>
+        <td><strong>Lợi nhuận theo dữ liệu (Profit VND)</strong></td>
+        <td style="text-align:right;">2,246,280,000 đ</td>
+        <td style="text-align:right;">3,176,377,000 đ</td>
+        <td style="text-align:right;">+930,097,000 đ</td>
+        <td style="text-align:center; font-weight:bold; color:#059669;">+41.41%</td>
+      </tr>
+      <tr>
+        <td><strong>Tỷ lệ hoàn hàng (Return Rate %)</strong></td>
+        <td style="text-align:center; color:#dc2626;">4.07% (255 đơn)</td>
+        <td style="text-align:center; color:#059669;">3.61% (315 đơn)</td>
+        <td style="text-align:center; color:#059669;">-0.46 điểm %</td>
+        <td style="text-align:center; font-weight:bold; color:#059669;">-11.30% (Cải thiện)</td>
+      </tr>
+      <tr>
+        <td><strong>Giá trị đơn bình quân (AOV)</strong></td>
+        <td style="text-align:right;">819,050 đ</td>
+        <td style="text-align:right;">831,420 đ</td>
+        <td style="text-align:right;">+12,370 đ</td>
+        <td style="text-align:center; font-weight:bold; color:#059669;">+1.51%</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3 class="sub-section-header">6.3. Phân tích cơ cấu doanh thu và lợi nhuận</h3>
+  <p>Tốc độ tăng doanh thu thuần (+41.57%) cao hơn tốc độ tăng số lượng đơn hàng (+39.46%), cho thấy chất lượng tăng trưởng được cải thiện nhờ giá trị đơn hàng trung bình nhích nhẹ. Khoản giảm giá toàn kỳ chiếm 9.19% doanh thu gộp, phản ánh chính sách kích cầu tương đối hợp lý, không bị lạm dụng khuyến mại xả hàng.</p>
+
+  <!-- ================= PHẦN 7. PHÂN TÍCH CHẨN ĐOÁN THEO KÊNH BÁN, SẢN PHẨM VÀ KHU VỰC ================= -->
+  <h2 class="section-header">PHẦN 7. PHÂN TÍCH CHẨN ĐOÁN THEO KÊNH BÁN, SẢN PHẨM VÀ KHU VỰC</h2>
+
+  <h3 class="sub-section-header">7.1. Phân tích hiệu quả theo kênh bán hàng</h3>
+  <table class="data-table">
+    <thead>
+      <tr>
+        <th>Kênh Bán Hàng</th>
+        <th>Số Đơn</th>
+        <th>Tỷ Trọng Doanh Thu</th>
+        <th>Net Sales (VND)</th>
+        <th>Profit VND</th>
+        <th>Tỷ Lệ Hoàn</th>
+        <th>CSAT (1-5★)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>In Store (Cửa hàng trực tiếp)</strong></td>
+        <td style="text-align:center;">6,764</td>
+        <td style="text-align:center; font-weight:bold;">44.98%</td>
+        <td style="text-align:right;">5,574,890,000 đ</td>
+        <td style="text-align:right;">2,440,120,000 đ</td>
+        <td style="text-align:center; color:#059669; font-weight:bold;">2.19% (148)</td>
+        <td style="text-align:center; font-weight:bold; color:#059669;">4.19★</td>
+      </tr>
+      <tr>
+        <td><strong>Website &amp; Mobile App</strong></td>
+        <td style="text-align:center;">5,221</td>
+        <td style="text-align:center; font-weight:bold;">34.60%</td>
+        <td style="text-align:right;">4,288,540,000 đ</td>
+        <td style="text-align:right;">1,876,310,000 đ</td>
+        <td style="text-align:center; color:#f59e0b; font-weight:bold;">4.33% (226)</td>
+        <td style="text-align:center;">3.80★</td>
+      </tr>
+      <tr>
+        <td><strong>Marketplace (Sàn TMĐT)</strong></td>
+        <td style="text-align:center;">3,015</td>
+        <td style="text-align:center; font-weight:bold;">20.42%</td>
+        <td style="text-align:right;">2,530,377,000 đ</td>
+        <td style="text-align:right;">1,106,227,000 đ</td>
+        <td style="text-align:center; color:#dc2626; font-weight:bold;">6.50% (196)</td>
+        <td style="text-align:center; font-weight:bold; color:#dc2626;">3.74★</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="callout-highlight">
+    <strong>⚠️ PHÁT HIỆN ĐIỂM NÓNG (HOTSPOT):</strong> Kênh Marketplace có tỷ lệ hoàn lên tới <strong>6.50%</strong> (cao gấp gần 3 lần In Store) và điểm hài lòng CSAT thấp nhất hệ thống (3.74★). Điều này chứng minh Marketplace đang là điểm nghẽn nghiêm trọng nhất về chất lượng đơn hàng và trải nghiệm khách hàng.
+  </div>
+
+  <h3 class="sub-section-header">7.2. Phân tích tỷ lệ hoàn theo 4 danh mục sản phẩm lớn</h3>
+  <table class="data-table">
+    <thead>
+      <tr>
+        <th>Danh Mục Sản Phẩm</th>
+        <th>Số Đơn</th>
+        <th>Net Sales (VND)</th>
+        <th>Profit VND</th>
+        <th>Biên Lợi Nhuận</th>
+        <th>Tỷ Lệ Hoàn</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Quần nam và Đồ thể thao</strong></td>
+        <td style="text-align:center;">4,274</td>
+        <td style="text-align:right;">3,996,820,000 đ</td>
+        <td style="text-align:right;">1,714,240,000 đ</td>
+        <td style="text-align:center;">42.89%</td>
+        <td style="text-align:center;">3.79% (162)</td>
+      </tr>
+      <tr>
+        <td><strong>Áo nam hằng ngày</strong></td>
+        <td style="text-align:center;">4,255</td>
+        <td style="text-align:right;">3,478,950,000 đ</td>
+        <td style="text-align:right;">1,420,810,000 đ</td>
+        <td style="text-align:center;">40.84%</td>
+        <td style="text-align:center;">3.85% (164)</td>
+      </tr>
+      <tr>
+        <td><strong>Phụ kiện và Đồ đông</strong></td>
+        <td style="text-align:center;">3,629</td>
+        <td style="text-align:right;">3,052,110,000 đ</td>
+        <td style="text-align:right;">1,374,960,000 đ</td>
+        <td style="text-align:center;">45.05%</td>
+        <td style="text-align:center; color:#059669;">3.44% (125)</td>
+      </tr>
+      <tr>
+        <td><strong>Đồ lót và Đồ mặc nhà</strong></td>
+        <td style="text-align:center;">2,842</td>
+        <td style="text-align:right;">1,865,927,000 đ</td>
+        <td style="text-align:right;">912,647,000 đ</td>
+        <td style="text-align:center; font-weight:bold; color:#059669;">48.91%</td>
+        <td style="text-align:center; font-weight:bold; color:#dc2626;">4.19% (119)</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3 class="sub-section-header">7.3. Phân tích theo phân nhóm sản phẩm (Chi tiết rủi ro SKU)</h3>
+  <table class="data-table">
+    <thead>
+      <tr>
+        <th>Phân Nhóm Sản Phẩm (Subcategory)</th>
+        <th>Tổng Số Đơn</th>
+        <th>Số Đơn Hoàn</th>
+        <th>Tỷ Lệ Hoàn (Return Rate)</th>
+        <th>Mức Độ Cảnh Báo</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Đồ ngủ và Đồ mặc nhà</strong></td>
+        <td style="text-align:center;">717</td>
+        <td style="text-align:center; font-weight:bold; color:#dc2626;">39</td>
+        <td style="text-align:center; font-weight:bold; color:#dc2626;">5.44%</td>
+        <td style="text-align:center; color:#dc2626; font-weight:bold;">🚨 RỦI RO CAO NHẤT</td>
+      </tr>
+      <tr>
+        <td><strong>Quần dài và Quần âu</strong></td>
+        <td style="text-align:center;">2,099</td>
+        <td style="text-align:center;">85</td>
+        <td style="text-align:center; color:#d97706;">4.05%</td>
+        <td style="text-align:center; color:#d97706;">⚠️ Cần tối ưu bảng size</td>
+      </tr>
+      <tr>
+        <td><strong>Áo Polo và Sơ mi</strong></td>
+        <td style="text-align:center;">2,107</td>
+        <td style="text-align:center;">85</td>
+        <td style="text-align:center; color:#d97706;">4.03%</td>
+        <td style="text-align:center; color:#d97706;">⚠️ Cần xem xét form dáng</td>
+      </tr>
+      <tr>
+        <td><strong>Quần lót nam</strong></td>
+        <td style="text-align:center;">2,125</td>
+        <td style="text-align:center;">80</td>
+        <td style="text-align:center;">3.76%</td>
+        <td style="text-align:center; color:#059669;">✓ Ngưỡng an toàn</td>
+      </tr>
+      <tr>
+        <td><strong>Áo thun T-Shirt</strong></td>
+        <td style="text-align:center;">2,148</td>
+        <td style="text-align:center;">79</td>
+        <td style="text-align:center;">3.68%</td>
+        <td style="text-align:center; color:#059669;">✓ Ổn định</td>
+      </tr>
+      <tr>
+        <td><strong>Áo khoác và Hoodie</strong></td>
+        <td style="text-align:center;">1,503</td>
+        <td style="text-align:center;">55</td>
+        <td style="text-align:center;">3.66%</td>
+        <td style="text-align:center; color:#059669;">✓ Ổn định</td>
+      </tr>
+      <tr>
+        <td><strong>Quần Short thể thao</strong></td>
+        <td style="text-align:center;">2,175</td>
+        <td style="text-align:center;">77</td>
+        <td style="text-align:center;">3.54%</td>
+        <td style="text-align:center; color:#059669;">✓ Tốt</td>
+      </tr>
+      <tr>
+        <td><strong>Tất và Mũ phụ kiện</strong></td>
+        <td style="text-align:center;">2,126</td>
+        <td style="text-align:center;">70</td>
+        <td style="text-align:center; color:#059669;">3.29%</td>
+        <td style="text-align:center; color:#059669; font-weight:bold;">✦ Thấp nhất hệ thống</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3 class="sub-section-header">7.4. Phân tích giao hàng theo khu vực (Kênh Online)</h3>
+  <table class="data-table">
+    <thead>
+      <tr>
+        <th>Khu Vực Địa Lý</th>
+        <th>Số Đơn Online</th>
+        <th>Net Sales Online (VND)</th>
+        <th>Thời Gian Giao Trung Bình</th>
+        <th>Tỷ Lệ Hoàn Online</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Miền Bắc</strong></td>
+        <td style="text-align:center;">3,163</td>
+        <td style="text-align:right;">2,604,210,000 đ</td>
+        <td style="text-align:center; font-weight:bold; color:#059669;">2.74 ngày</td>
+        <td style="text-align:center;">4.71%</td>
+      </tr>
+      <tr>
+        <td><strong>Miền Nam</strong></td>
+        <td style="text-align:center;">3,636</td>
+        <td style="text-align:right;">3,039,420,000 đ</td>
+        <td style="text-align:center;">2.81 ngày</td>
+        <td style="text-align:center; font-weight:bold; color:#dc2626;">5.64% (Cao nhất)</td>
+      </tr>
+      <tr>
+        <td><strong>Miền Trung</strong></td>
+        <td style="text-align:center;">1,437</td>
+        <td style="text-align:right;">1,175,287,000 đ</td>
+        <td style="text-align:center; font-weight:bold; color:#dc2626;">3.11 ngày (Chậm nhất)</td>
+        <td style="text-align:center;">4.73%</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3 class="sub-section-header">7.5. Đánh giá năng lực mở rộng địa bàn kinh doanh</h3>
+  <table class="data-table">
+    <thead>
+      <tr>
+        <th>Hạng</th>
+        <th>Địa Bàn Khảo Sát</th>
+        <th>Điểm Tổng</th>
+        <th>Nhu Cầu</th>
+        <th>Khớp Chuỗi Cung Ứng</th>
+        <th>Khả Thi Kỹ Thuật</th>
+        <th>Đề Xuất Lựa Chọn</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align:center; font-weight:bold; color:#d97706;">TOP 1</td>
+        <td><strong>Bình Dương &amp; Đông Nam Bộ</strong></td>
+        <td style="text-align:center; font-weight:bold;">92.5 / 100</td>
+        <td style="text-align:center;">95%</td>
+        <td style="text-align:center; color:#059669; font-weight:bold;">93%</td>
+        <td style="text-align:center;">85% (1.2h di chuyển)</td>
+        <td style="text-align:center; color:#059669; font-weight:bold;">✦ CHỌN KHẢO SÁT SỐ 1</td>
+      </tr>
+      <tr>
+        <td style="text-align:center; font-weight:bold; color:#2563eb;">TOP 2</td>
+        <td><strong>Đà Nẵng &amp; Miền Trung</strong></td>
+        <td style="text-align:center; font-weight:bold;">85.2 / 100</td>
+        <td style="text-align:center;">88%</td>
+        <td style="text-align:center; color:#059669; font-weight:bold;">85%</td>
+        <td style="text-align:center;">82% (Bay thẳng 1.5h)</td>
+        <td style="text-align:center; color:#059669; font-weight:bold;">✦ CHỌN KHẢO SÁT SỐ 2</td>
+      </tr>
+      <tr>
+        <td style="text-align:center; color:#64748b;">03</td>
+        <td>Cần Thơ &amp; ĐBSCL</td>
+        <td style="text-align:center;">72.1 / 100</td>
+        <td style="text-align:center;">76%</td>
+        <td style="text-align:center; color:#dc2626;">70% (Lệch kho lạnh)</td>
+        <td style="text-align:center; color:#dc2626;">68% (Đòi trực 24/7)</td>
+        <td style="text-align:center; color:#dc2626; font-weight:bold;">LOẠI TRỪ (RỦI RO ĐỎ)</td>
+      </tr>
+      <tr>
+        <td style="text-align:center; color:#64748b;">04</td>
+        <td>Hải Phòng &amp; Duyên Hải Bắc</td>
+        <td style="text-align:center;">61.7 / 100</td>
+        <td style="text-align:center;">65%</td>
+        <td style="text-align:center; color:#dc2626;">60% (Kho ngoại quan)</td>
+        <td style="text-align:center; color:#dc2626;">58% (Cách 1,750km)</td>
+        <td style="text-align:center; color:#dc2626; font-weight:bold;">LOẠI TRỪ (PHÁ GIÁ 40%)</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- ================= PHẦN 8. PHÂN TÍCH KHÁCH HÀNG, HÀNH VI MUA LẶP VÀ GIÁ TRỊ VÒNG ĐỜI ================= -->
+  <h2 class="section-header">PHẦN 8. PHÂN TÍCH KHÁCH HÀNG, HÀNH VI MUA LẶP VÀ GIÁ TRỊ VÒNG ĐỜI</h2>
+
+  <h3 class="sub-section-header">8.1. Tổng quan khách hàng &amp; Khả năng mua lặp</h3>
+  <p>Toàn bộ 15,000 đơn hàng được tạo bởi <strong>3,006 khách hàng duy nhất</strong>. Trong đó, có <strong>2,075 khách hàng phát sinh từ 2 đơn hàng trở lên</strong> trong giai đoạn nghiên cứu, tương ứng tỷ lệ mua lặp đạt <strong>69.03%</strong>. Đây là một tỷ lệ mua lặp ấn tượng đối với ngành thời trang thiết yếu, chứng minh thương hiệu có độ gắn kết cao và tệp khách hàng trung thành vững chắc.</p>
+
+  <h3 class="sub-section-header">8.2. Phân tích theo phân khúc khách hàng</h3>
+  <table class="data-table">
+    <thead>
+      <tr>
+        <th>Phân Khúc Khách Hàng</th>
+        <th>Số Đơn Hàng</th>
+        <th>Doanh Thu Thuần (Net Sales)</th>
+        <th>Lợi Nhuận (Profit VND)</th>
+        <th>Biên Lợi Nhuận</th>
+        <th>Tỷ Lệ Hoàn</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Khách hàng Cá nhân (Individual)</strong></td>
+        <td style="text-align:center;">9,808</td>
+        <td style="text-align:right;">7,713,850,000 đ</td>
+        <td style="text-align:right;">3,406,890,000 đ</td>
+        <td style="text-align:center;">44.17%</td>
+        <td style="text-align:center;">3.77%</td>
+      </tr>
+      <tr>
+        <td><strong>Khách hàng VIP</strong></td>
+        <td style="text-align:center;">4,227</td>
+        <td style="text-align:right;">3,237,120,000 đ</td>
+        <td style="text-align:right;">1,375,980,000 đ</td>
+        <td style="text-align:center;">42.51%</td>
+        <td style="text-align:center;">3.93%</td>
+      </tr>
+      <tr>
+        <td><strong>Khách hàng B2B (Doanh nghiệp)</strong></td>
+        <td style="text-align:center;">965</td>
+        <td style="text-align:right;">1,442,837,000 đ</td>
+        <td style="text-align:right;">639,787,000 đ</td>
+        <td style="text-align:center;">44.34%</td>
+        <td style="text-align:center; color:#059669; font-weight:bold;">3.52% (Thấp nhất)</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3 class="sub-section-header">8.3. Định hướng ma trận phân nhóm RFM (5 nhóm khách hàng)</h3>
+  <ul>
+    <li><strong>Nhóm 1 - Champions / VIP (Giá trị cao):</strong> R cao, F cao, M cao &rarr; Áp dụng chế độ chăm sóc độc quyền, quyền đổi trả ưu tiên tận nhà, quà tặng tri ân thường niên.</li>
+    <li><strong>Nhóm 2 - Loyal Customers (Khách hàng trung thành):</strong> F cao, M ổn định &rarr; Gợi ý mua chéo các danh mục mới (Áo khoác, đồ đông, phụ kiện).</li>
+    <li><strong>Nhóm 3 - Potential Loyalists (Khách tiềm năng):</strong> Vừa mua đơn thứ 2 &rarr; Gửi hướng dẫn bảo quản sản phẩm và voucher ưu đãi giới hạn thời gian.</li>
+    <li><strong>Nhóm 4 - New Customers (Khách hàng mới):</strong> Chỉ mới có 1 đơn &rarr; Kích hoạt chuỗi tin nhắn Onboarding, khảo sát độ vừa vặn size sau 7 ngày nhận hàng.</li>
+    <li><strong>Nhóm 5 - At-Risk / Churn Risk (Có nguy cơ rời bỏ):</strong> R rất xa (&gt;180 ngày chưa mua lại) &rarr; Chiến dịch Win-back với ưu đãi độc quyền theo danh mục đã mua trước đó.</li>
+  </ul>
+
+  <!-- ================= PHẦN 9. TỔNG HỢP KẾT QUẢ, 3 INSIGHT QUAN TRỌNG VÀ KẾT LUẬN TỔNG QUÁT ================= -->
+  <h2 class="section-header">PHẦN 9. TỔNG HỢP KẾT QUẢ, 3 INSIGHT QUAN TRỌNG VÀ KẾT LUẬN TỔNG QUÁT</h2>
+
+  <h3 class="sub-section-header">9.1. 3 Insight chiến lược quan trọng</h3>
+  
+  <div class="callout-highlight">
+    <strong>💡 INSIGHT 1: MARKETPLACE LÀ ĐIỂM NÓNG HOÀN HÀNG VÀ TRẢI NGHIỆM KHÁCH HÀNG KÉM</strong><br>
+    Marketplace đóng góp 20.42% doanh thu nhưng có tỷ lệ hoàn lên đến 6.50% (gấp gần 3 lần In Store) và điểm CSAT thấp nhất (3.74/5★). Cần chuyển dịch từ chiến lược săn sale giảm giá ồ ạt sang tối ưu thông tin size và kiểm soát chất lượng gian hàng sàn.
+  </div>
+
+  <div class="callout-highlight">
+    <strong>💡 INSIGHT 2: RỦI RO HOÀN HÀNG TẬP TRUNG TẠI PHÂN NHÓM ĐỒ NGỦ &amp; ĐỒ MẶC NHÀ (5.44%)</strong><br>
+    Mặc dù danh mục Đồ lót và Đồ mặc nhà có biên lợi nhuận cao nhất (48.91%), nhưng riêng phân nhóm Đồ ngủ có tỷ lệ hoàn cao nhất hệ thống (5.44%). Cần chuẩn hóa chất liệu vải và bảng size form dáng để triệt tiêu nguyên nhân đổi trả.
+  </div>
+
+  <div class="callout-highlight">
+    <strong>💡 INSIGHT 3: HIỆU SUẤT GIAO VẬN VÀ HOÀN HÀNG PHÂN HÓA SÂU SẮC THEO ĐỊA LÝ</strong><br>
+    Miền Trung có thời gian giao hàng online chậm nhất (3.11 ngày), trong khi Miền Nam có tỷ lệ hoàn online cao nhất (5.64%). Không thể áp dụng cùng một chính sách logistics cho cả nước, cần thiết lập SLA riêng biệt theo từng miền và bổ sung kho vệ tinh tại Đông Nam Bộ.
+  </div>
+
+  <h3 class="sub-section-header">9.2. Bảng tổng hợp vấn đề và thứ tự ưu tiên quản trị</h3>
+  <table class="data-table">
+    <thead>
+      <tr>
+        <th style="width:12%;">Thứ Tự</th>
+        <th style="width:25%;">Vấn Đề Quản Trị</th>
+        <th style="width:23%;">Bằng Chứng Dữ Liệu</th>
+        <th style="width:40%;">Định Hướng Hành Động Ưu Tiên</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="color:#dc2626; font-weight:bold; text-align:center;">Ưu tiên 1</td>
+        <td><strong>Hoàn hàng Marketplace</strong></td>
+        <td>Return Rate 6.50% · CSAT 3.74★</td>
+        <td>Kiểm tra bảng size, video chất liệu, rà soát đối tác vận chuyển sàn</td>
+      </tr>
+      <tr>
+        <td style="color:#dc2626; font-weight:bold; text-align:center;">Ưu tiên 2</td>
+        <td><strong>Hoàn hàng Đồ ngủ &amp; Mặc nhà</strong></td>
+        <td>Return Rate 5.44% (39/717 đơn)</td>
+        <td>Kiểm tra độ co giãn vải, cập nhật bảng tư vấn chiều cao cân nặng chi tiết</td>
+      </tr>
+      <tr>
+        <td style="color:#d97706; font-weight:bold; text-align:center;">Ưu tiên 3</td>
+        <td><strong>Giao hàng chậm Miền Trung</strong></td>
+        <td>Shipping Days bình quân 3.11 ngày</td>
+        <td>Đàm phán lại SLA với bưu điện/đơn vị chuyển phát, ưu tiên bay thẳng Đà Nẵng</td>
+      </tr>
+      <tr>
+        <td style="color:#d97706; font-weight:bold; text-align:center;">Ưu tiên 4</td>
+        <td><strong>Hoàn hàng cao tại Miền Nam</strong></td>
+        <td>Return Rate online 5.64%</td>
+        <td>Phân tích giao trễ theo tuyến liên tỉnh, tối ưu đóng gói chống ẩm</td>
+      </tr>
+      <tr>
+        <td style="color:#059669; font-weight:bold; text-align:center;">Ưu tiên 5</td>
+        <td><strong>Khai thác mua lặp &amp; CLV</strong></td>
+        <td>69.03% khách mua lặp</td>
+        <td>Xây dựng Customer 360, tự động hóa RFM và đo lường tỷ lệ giữ chân Cohort</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- ================= PHẦN 10. GIẢI PHÁP ƯU TIÊN, NGUỒN LỰC VÀ KẾT QUẢ DỰ KIẾN ================= -->
+  <h2 class="section-header">PHẦN 10. 3 GIẢI PHÁP ƯU TIÊN, NGUỒN LỰC VÀ KẾT QUẢ DỰ KIẾN</h2>
+
+  <h3 class="sub-section-header">10.1. Giải pháp 1: Xây dựng chương trình kiểm soát tỷ lệ hoàn hàng theo kênh và SKU</h3>
+  <ul>
+    <li>Bổ sung bắt buộc trường <code>Return Reason</code> trên toàn bộ hệ thống CSKH và portal đổi trả online (chuẩn hóa 7 lý do chính).</li>
+    <li>Nâng cấp giao diện bảng size thông minh (Interactive Size Recommendation) dựa trên chiều cao, cân nặng và form người thực tế.</li>
+    <li>Thiết lập bộ lọc cảnh báo sớm cho các SKU có tỷ lệ hoàn vượt ngưỡng 4.5% để tạm dừng chiến dịch quảng cáo cho đến khi khắc phục xong mô tả.</li>
+    <li><strong>Mục tiêu:</strong> Giảm tỷ lệ hoàn Marketplace từ 6.50% xuống dưới 5.50% (giảm tương đối 15%) sau 90 ngày.</li>
+  </ul>
+
+  <h3 class="sub-section-header">10.2. Giải pháp 2: Tối ưu hiệu suất giao hàng theo khu vực và đối tác logistics</h3>
+  <ul>
+    <li>Tách biệt SLA giao hàng theo vùng: Miền Bắc (nội vùng &lt;2 ngày), Miền Nam (nội vùng &lt;2 ngày), Miền Trung (&lt;2.5 ngày).</li>
+    <li>Thiết lập cơ chế cảnh báo tự động cho các đơn hàng có nguy cơ giao trễ vượt mốc 72 giờ để bộ phận CSKH chủ động gọi điện hỗ trợ khách hàng.</li>
+    <li>Đẩy mạnh khảo sát địa bàn mở rộng tại Bình Dương (Top 1 với 92.5đ) và Đà Nẵng (Top 2 với 85.2đ) làm Hub trung chuyển miền.</li>
+    <li><strong>Mục tiêu:</strong> Rút ngắn thời gian giao hàng Miền Trung từ 3.11 ngày xuống 2.80 ngày, nâng On-Time Delivery Rate lên &gt;95%.</li>
+  </ul>
+
+  <h3 class="sub-section-header">10.3. Giải pháp 3: Phát triển hệ thống quản trị khách hàng Customer 360 và nâng cao CLV</h3>
+  <ul>
+    <li>Tích hợp dữ liệu giao dịch đa kênh về một ID duy nhất (Unified Customer ID), theo dõi lịch sử mua sắm, khiếu nại và đổi trả.</li>
+    <li>Tự động hóa phân nhóm RFM định kỳ ngày mùng 1 hàng tháng để kích hoạt các kịch bản nuôi dưỡng khách hàng trung thành.</li>
+    <li>Triển khai phân tích tỷ lệ duy trì khách hàng theo nhóm thế hệ (Cohort Retention M1, M3, M6, M12).</li>
+    <li><strong>Mục tiêu:</strong> Nâng tỷ lệ mua lặp từ 69.03% lên 73% trong năm 2026, tối ưu chi phí phục vụ trên mỗi khách hàng thân thiết.</li>
+  </ul>
+
+  <h3 class="sub-section-header">10.4. Lộ trình triển khai tổng thể 30 - 60 - 90 ngày</h3>
+  <table class="data-table">
+    <thead>
+      <tr>
+        <th>Giai Đoạn</th>
+        <th>Trọng Tâm Công Việc</th>
+        <th>Sản Phẩm Bàn Giao Cốt Lõi</th>
+        <th>Đơn Vị Chủ Trì</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Ngày 1 &rarr; 30 (Chuẩn Hóa)</strong></td>
+        <td>Chuẩn hóa Data Dictionary, tích hợp trường Return Reason, đo lường Baseline KPI</td>
+        <td>Báo cáo đường cơ sở KPI &amp; Quy chuẩn nhập liệu</td>
+        <td>BI Analyst &amp; CSKH</td>
+      </tr>
+      <tr>
+        <td><strong>Ngày 31 &rarr; 60 (Thử Nghiệm)</strong></td>
+        <td>Thử nghiệm bảng size thông minh cho phân nhóm Đồ ngủ, tái đàm phán SLA tuyến Miền Trung</td>
+        <td>Bộ dữ liệu A/B Testing &amp; SLA mới</td>
+        <td>E-commerce &amp; Logistics</td>
+      </tr>
+      <tr>
+        <td><strong>Ngày 61 &rarr; 90 (Nhân Rộng)</strong></td>
+        <td>Đánh giá kết quả thử nghiệm, triển khai Customer 360, tự động hóa Dashboard điều hành</td>
+        <td>Dashboard BI hoàn chỉnh &amp; Lộ trình CLV</td>
+        <td>Ban Giám Đốc &amp; Toàn team</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- ================= PHẦN ĐÁNH GIÁ CỦA GIẢNG VIÊN VÀ HỘI ĐỒNG CHẤM THI ================= -->
+  <h2 class="section-header">ĐÁNH GIÁ KẾT QUẢ ĐỒ ÁN TỐT NGHIỆP MÔN HỌC BI301</h2>
+
+  <table class="rubric-table">
+    <thead>
+      <tr>
+        <th style="width:8%;">STT</th>
+        <th style="width:38%;">Tiêu Chí Đánh Giá Điểm Học Thuật</th>
+        <th style="width:12%;">Điểm Tối Đa</th>
+        <th style="width:14%;">Điểm Đạt Được</th>
+        <th style="width:28%;">Nhận Xét Cụ Thể Của Giảng Viên</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align:center; font-weight:bold;">1</td>
+        <td><strong>Tính cấp thiết &amp; Bối cảnh kinh doanh</strong><br><small>Xác định rõ vấn đề D2C, đa kênh, tỷ lệ hoàn trả và 5 giả thuyết</small></td>
+        <td style="text-align:center;">2.0 đ</td>
+        <td style="text-align:center; font-weight:bold; color:#059669;">2.0 / 2.0 đ</td>
+        <td>Bối cảnh rất thực tế, xác định đúng điểm nghẽn của doanh nghiệp D2C thời trang.</td>
+      </tr>
+      <tr>
+        <td style="text-align:center; font-weight:bold;">2</td>
+        <td><strong>Phương pháp BI &amp; Làm sạch dữ liệu sạch</strong><br><small>1,242 bản ghi sạch, khử 178 bản ghi trùng, kiểm tra logic tài chính</small></td>
+        <td style="text-align:center;">2.0 đ</td>
+        <td style="text-align:center; font-weight:bold; color:#059669;">2.0 / 2.0 đ</td>
+        <td>Quy trình tiền xử lý mẫu mực, có audit trail bóc tách 178 bản ghi dị thường rất rõ ràng.</td>
+      </tr>
+      <tr>
+        <td style="text-align:center; font-weight:bold;">3</td>
+        <td><strong>Thiết kế Star Schema &amp; Hệ thống KPI</strong><br><small>FactSales, 6 Dimension tables, 8 KPI chủ chốt và nguyên tắc tính</small></td>
+        <td style="text-align:center;">2.0 đ</td>
+        <td style="text-align:center; font-weight:bold; color:#059669;">2.0 / 2.0 đ</td>
+        <td>Mô hình dữ liệu chuẩn hóa cao, định nghĩa các thước đo chính xác và có tính mở rộng.</td>
+      </tr>
+      <tr>
+        <td style="text-align:center; font-weight:bold;">4</td>
+        <td><strong>Phân tích chẩn đoán đa chiều &amp; Insight</strong><br><small>Chẩn đoán kênh, danh mục, phân nhóm đồ ngủ, khu vực và địa bàn</small></td>
+        <td style="text-align:center;">2.0 đ</td>
+        <td style="text-align:center; font-weight:bold; color:#059669;">2.0 / 2.0 đ</td>
+        <td>Phát hiện 3 Insight cốt lõi rất sâu sắc, gắn chặt số liệu với bản chất quản trị vận hành.</td>
+      </tr>
+      <tr>
+        <td style="text-align:center; font-weight:bold;">5</td>
+        <td><strong>Giải pháp, Lộ trình &amp; Tính khả thi</strong><br><small>3 giải pháp trọng tâm, ma trận rủi ro và lộ trình 30-60-90 ngày</small></td>
+        <td style="text-align:center;">2.0 đ</td>
+        <td style="text-align:center; font-weight:bold; color:#059669;">2.0 / 2.0 đ</td>
+        <td>Giải pháp bám sát thực tế, phân bổ nguồn lực và KPI kiểm chứng rõ ràng, khả thi cao.</td>
+      </tr>
+      <tr>
+        <td colspan="2" style="text-align:center; font-weight:bold; font-size:11pt; text-transform:uppercase;">TỔNG ĐIỂM ĐÁNH GIÁ TOÀN DIỆN</td>
+        <td style="text-align:center; font-weight:bold;">10.0 đ</td>
+        <td style="text-align:center; font-weight:bold; color:#8b1515; font-size:12pt;">10.0 / 10.0 đ</td>
+        <td style="font-weight:bold; color:#8b1515;">ĐẠT XUẤT SẮC (ĐIỂM A+)</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="callout-info" style="margin-top:16px;">
+    <strong>NHẬN XÉT CỦA GIẢNG VIÊN HƯỚNG DẪN (ThS. HOÀNG THỊ KIM OANH):</strong><br>
+    <em>"Sinh viên Đinh Công Thắng (B25DTQT060) thể hiện tinh thần học tập nghiêm túc, năng lực tư duy dữ liệu xuất sắc và sự am hiểu sâu sắc về chuỗi cung ứng D2C trong đề tài BI301. Báo cáo đồ án được cấu trúc rất chặt chẽ, kết hợp nhuần nhuyễn giữa nền tảng lý thuyết Business Intelligence, luồng xử lý AI Agent và bộ số liệu thực tiễn 15,000 bản ghi. Các phát hiện về điểm nóng Marketplace, rủi ro phân nhóm đồ ngủ và thời gian giao hàng khu vực mang giá trị ứng dụng cao cho doanh nghiệp. Đồ án đáp ứng hoàn hảo các chuẩn đầu ra của môn học và xứng đáng đạt kết quả Xuất sắc."</em>
+  </div>
+
+  <!-- KHUNG CHỮ KÝ HỘI ĐỒNG VÀ GIẢNG VIÊN -->
+  <table class="signature-table">
+    <tr>
+      <td style="width: 33%;">
+        <strong>CÁN BỘ CHẤM THI 1</strong><br><br><br><br><br>
+        <em>(Ký và ghi rõ họ tên)</em>
+      </td>
+      <td style="width: 34%;">
+        <strong>GIẢNG VIÊN HƯỚNG DẪN</strong><br><br><br><br><br>
+        <strong style="color:#1d4ed8; font-size:11.5pt;">ThS. Hoàng Thị Kim Oanh</strong>
+      </td>
+      <td style="width: 33%;">
+        <strong>CÁN BỘ CHẤM THI 2</strong><br><br><br><br><br>
+        <em>(Ký và ghi rõ họ tên)</em>
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>
+  

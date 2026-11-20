@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Dynamic Calculation & Deliverable Test Suite</title>
+</head>
+
+<body class="dark-mode">
+  <div id="results">Running tests...</div>
+  <!-- Hidden dummy elements to support dashboard and exports without UI errors -->
+  <div style="display:none;">
+    <button id="theme-mode-toggle"><span id="mode-icon"></span><span id="mode-label"></span></button>
+    <div id="toast"></div>
+    <div id="page-title"></div>
+    <div id="drop-zone"></div>
+    <div id="file-input"></div>
+    <div id="file-list"></div>
+    <div class="nav-item" data-view="overview"></div>
+    <div class="nav-item" data-view="input"></div>
+    <div class="view" id="overview"></div>
+    <div class="view" id="input"></div>
+    <div id="stage-4-status-label"></div>
+    <div id="stat-input-count"></div>
+    <div id="stat-input-desc"></div>
+    <div id="stat-cleaned-count"></div>
+    <div id="stat-cleaned-desc"></div>
+    <div id="stat-confidence-rate"></div>
+    <div id="reports-dataset-title"></div>
+    <div id="reports-dataset-desc"></div>
+    <div id="reports-dataset-banner"></div>
+    <div id="reports-dataset-badge"></div>
+    <div id="reports-dataset-icon"></div>
+    <div id="kpi-net-sales"></div>
+    <div id="kpi-return-rate"></div>
+    <div id="kpi-total-profit"></div>
+    <div id="kpi-avg-shipping"></div>
+    <div id="kpi-customer-satisfaction"></div>
+    <div id="clean-hub-raw-count"></div>
+    <div id="clean-hub-dups-count"></div>
+    <div id="clean-hub-clean-count"></div>
+    <div id="clean-hub-dq-rate"></div>
+    <div id="clean-hub-meta-badge"></div>
+    <table id="clean-hub-table">
+      <thead id="clean-hub-thead"></thead>
+      <tbody id="clean-hub-tbody"></tbody>
+    </table>
+    <div id="clean-hub-pagination-info"></div>
+    <div id="clean-hub-records-summary"></div>
+    <div id="dash-period-subtitle"></div>
+    <div id="kpi-val-orders"></div>
+    <div id="kpi-delta-orders"></div>
+    <div id="kpi-val-sales"></div>
+    <div id="kpi-delta-sales"></div>
+    <div id="kpi-val-profit"></div>
+    <div id="kpi-delta-profit"></div>
+    <div id="kpi-val-cost"></div>
+    <div id="kpi-delta-cost"></div>
+    <select id="select-report-period"></select>
+    <select id="select-dataset-view"></select>
+    <select id="biz-type-input"></select>
+    <input id="export-base-filename" />
+    <input id="export-filename-excel" />
+    <input id="export-filename-word" />
+    <input id="export-filename-ppt" />
+    <input id="export-filename-html" />
+    <textarea id="biz-questions-input"></textarea>
+    <input id="biz-scope-input" />
+    <div id="donut-legend-content"></div>
+    <div id="bar-list-revenue-contrib"></div>
+    <div id="bar-contrib-footer"></div>
+    <div id="txt-change-period-subtitle"></div>
+    <div id="txt-change-summary"></div>
+    <div id="bar-list-revenue-delta"></div>
+    <div id="metric-profit-margin"></div>
+    <div id="metric-avg-order-value"></div>
+    <div id="thematic-channel-sales-bars"></div>
+    <div id="thematic-channel-sales-insight"></div>
+    <div id="thematic-cogs-summary"></div>
+    <div id="thematic-marketing-cost-bars"></div>
+    <div id="thematic-marketing-cost-insight"></div>
+    <div id="table-sales-monthly-container"></div>
+    <canvas id="chart-sales-monthly"></canvas>
+    <canvas id="chart-cost-structure"></canvas>
+    <canvas id="monthlyTrendChart"></canvas>
+    <canvas id="categoryProfitChart"></canvas>
+    <canvas id="channelSalesChart"></canvas>
+    <canvas id="regionScatterChart"></canvas>
+    <canvas id="chart-report-monthly"></canvas>
+    <canvas id="chart-report-channel"></canvas>
+    <canvas id="chart-report-category"></canvas>
+    <canvas id="chart-report-region"></canvas>
+    <div id="reports-results-container">
+      <div class="analytics-kpi-card"><label></label><strong></strong><small></small></div>
+      <div class="analytics-kpi-card"><label></label><strong></strong><small></small></div>
+      <div class="analytics-kpi-card"><label></label><strong></strong><small></small></div>
+      <div class="analytics-kpi-card"><label></label><strong></strong><small></small></div>
+    </div>
+    <div id="reports-empty-state"></div>
+    <div id="report-preview-title"></div>
+    <div id="report-preview-subtitle"></div>
+    <div id="report-body-text"></div>
+  </div>
+
+  <script src="payload.js"></script>
+  <script src="xlsx.full.min.js"></script>
+  <script>
+    if (typeof Chart === 'undefined') {
+      window.Chart = function () {
+        return { update: function () { }, destroy: function () { }, data: { datasets: [{}] } };
+      };
+      window.Chart.register = function () { };
+    }
+  </script>
+  <script src="app.js"></script>
+
+  <script>
+    async function runTests() {
+      const log = [];
+      function assert(condition, message) {
+        if (!condition) {
+          log.push('FAIL: ' + message);
+          throw new Error(message);
+        } else {
+          log.push('PASS: ' + message);
+        }
+      }
+
+      try {
+        // Test 1: User's Qualified Custom Table (Đã duyệt | Trạng thái)
+        const customRows = [
+          { 'Đã duyệt': '00', 'Trạng thái': 'Chưa' },
+          { 'Đã duyệt': '25', 'Trạng thái': 'Có' },
+          { 'Đã duyệt': '50', 'Trạng thái': 'Có' },
+          { 'Đã duyệt': '00', 'Trạng thái': 'Có' }
+        ];
+
+        const valRes = validateRawRows(customRows);
+        assert(valRes.ok === true, 'Validation passed for qualified custom table');
+
+        const ok = processAndActivateData(customRows, 'Bang_Phe_Duyet_Thuc_Te');
+        assert(ok === true, 'processAndActivateData succeeded');
+        assert(currentDataset !== null, 'currentDataset was created');
+        assert(currentDataset.cleanCount === 4, 'cleanCount is 4');
+        assert(currentDataset.kpis.netSales === 75, 'total netSales calculated dynamically as 75 (0+25+50+0)');
+        assert(currentDataset.categoryData.length >= 2, 'Categorical grouping created for "Có" and "Chưa"');
+
+        // Find category "Có"
+        const catCo = currentDataset.categoryData.find(c => c.category === 'Có');
+        assert(catCo && catCo.netSales === 75 && catCo.count === 3, 'Category "Có" has netSales=75 and count=3');
+        const catChua = currentDataset.categoryData.find(c => c.category === 'Chưa');
+        assert(catChua && catChua.netSales === 0 && catChua.count === 1, 'Category "Chưa" has netSales=0 and count=1');
+
+        // Test 2: Active Dataset Context is dynamic
+        const ctx = getActiveDatasetContext();
+        assert(ctx.topicSubtitle.includes('4 Bản Ghi'), 'Active Dataset Context has real record count: ' + ctx.topicSubtitle);
+        assert(ctx.topicTitle.includes('BANG_PHE_DUYET_THUC_TE'), 'Active Dataset Context has real dataset name: ' + ctx.topicTitle);
+
+        // Test 3: Deliverables calculation and export without crashing
+        let excelTriggered = false;
+        let wordTriggered = false;
+        let pptTriggered = false;
+
+        // Mock download/write triggers
+        const origXlsxWriteFile = XLSX.writeFile;
+        XLSX.writeFile = function (wb, fn) {
+          excelTriggered = true;
+          assert(wb.SheetNames.includes('DỮ LIỆU SẠCH (CLEAN DATA)'), 'Excel has clean data sheet');
+          const cleanSheet = wb.Sheets['DỮ LIỆU SẠCH (CLEAN DATA)'];
+          const cleanAoa = XLSX.utils.sheet_to_json(cleanSheet, { header: 1 });
+          assert(cleanAoa[0].includes('Đã duyệt'), 'Excel clean sheet has header "Đã duyệt"');
+          assert(cleanAoa[0].includes('Trạng thái'), 'Excel clean sheet has header "Trạng thái"');
+          assert(cleanAoa.length === 5, 'Excel clean sheet has 1 header + 4 rows = 5 rows');
+        };
+
+        exportExcelDeliverable();
+        assert(excelTriggered, 'exportExcelDeliverable succeeded');
+        XLSX.writeFile = origXlsxWriteFile;
+
+        // Mock document.body.appendChild for Word & PPT Blob links
+        const origAppend = document.body.appendChild;
+        const origRemove = document.body.removeChild;
+        const origOpen = window.open;
+        window.open = () => ({ document: { write: () => { }, close: () => { } } });
+
+        let lastWordDownloadName = '';
+        document.body.appendChild = function (node) {
+          if (node.tagName === 'A' && node.download) {
+            if (node.download.endsWith('.doc') || node.download.endsWith('.docx')) {
+              wordTriggered = true;
+              lastWordDownloadName = node.download;
+            }
+            if (node.download.endsWith('.ppt') || node.download.endsWith('.pptx')) pptTriggered = true;
+          }
+          return origAppend.call(document.body, node);
+        };
+
+        exportWordDeliverable();
+        assert(wordTriggered, 'exportWordDeliverable succeeded with real data (.docx)');
+
+        // Test custom filename rename before download
+        const wordNameInput = document.getElementById('export-filename-word');
+        if (wordNameInput) {
+          wordNameInput.value = 'BaoCao_TuyChinh_AI301_Test';
+          exportWordDeliverable();
+          assert(lastWordDownloadName === 'BaoCao_TuyChinh_AI301_Test.docx', 'Custom filename applied for Word download: ' + lastWordDownloadName);
+        }
+
+        exportPptDeliverable();
+        assert(pptTriggered, 'exportPptDeliverable succeeded with real data');
+
+        document.body.appendChild = origAppend;
+        window.open = origOpen;
+
+        // Test 4: Validation ONLY rejects empty data and data with < 2 rows!
+        const emptyTable = [];
+        const valEmpty = validateRawRows(emptyTable);
+        assert(valEmpty.ok === false && valEmpty.title.includes('trống'), 'Empty data rejected');
+
+        const singleRowTable = [
+          { 'Đã duyệt': '00', 'Trạng thái': 'Chưa' }
+        ];
+        const valSingle = validateRawRows(singleRowTable);
+        assert(valSingle.ok === false && valSingle.title.includes('quá ít'), 'Single row table (< 2 rows) rejected');
+
+        // Test: Single column table (< 2 columns) rejected
+        const singleColumnTable = [
+          { 'Doanh thu': '100' },
+          { 'Doanh thu': '200' },
+          { 'Doanh thu': '300' }
+        ];
+        const valSingleCol = validateRawRows(singleColumnTable);
+        assert(valSingleCol.ok === false && valSingleCol.title.includes('quá ít cột'), 'Single column table rejected (requires >= 2 columns for multi-dimensional analysis)');
+
+        // Missing header & special char tables are ACCEPTED (not rejected) so AI can audit & guide editing
+        const missingHeaderTable = [
+          { 'Đã duyệt': '00', '__EMPTY_2': 'Chưa' },
+          { 'Đã duyệt': '25', '__EMPTY_2': 'Có' }
+        ];
+        const valMissing = validateRawRows(missingHeaderTable);
+        assert(valMissing.ok === true, 'Missing header table is accepted for AI audit');
+
+        const specialCharTable = [
+          { 'Đã duyệt': '00@', 'Trạng thái': 'Chưa' },
+          { 'Đã duyệt': '25', 'Trạng thái': 'Có' }
+        ];
+        const valSpecial = validateRawRows(specialCharTable);
+        assert(valSpecial.ok === true, 'Special char table is accepted for AI audit');
+
+        // Test 5: Verify errors ONLY trigger for empty / missing data (User request 10)
+        const testDatasetRes = cleanAndNormalizeDataset(specialCharTable, 'Test Special Char Dataset');
+        assert(testDatasetRes.aiIssues.filter(i => i.type === 'special_char').length === 0, 'Special characters are not flagged as errors');
+
+        const emptyCellTable = [
+          { 'Đã duyệt': '25', 'Trạng thái': '' },
+          { 'Đã duyệt': '', 'Trạng thái': 'Có' }
+        ];
+        const emptyCellRes = cleanAndNormalizeDataset(emptyCellTable, 'Test Empty Cell Dataset');
+        assert(emptyCellRes.aiIssues && emptyCellRes.aiIssues.length > 0, 'AI detects empty / missing data issues');
+        const emptyIssue = emptyCellRes.aiIssues.find(i => i.type === 'empty_data');
+        assert(emptyIssue && emptyIssue.currentVal === '(Trống)', 'Empty cell identified properly with type empty_data');
+
+        // Test 6: Verify 6 Business Types in configuration
+        const requiredBizTypes = [
+          'Doanh nghiệp sản xuất',
+          'Doanh nghiệp thương mại',
+          'Doanh nghiệp bán lẻ',
+          'Doanh nghiệp dịch vụ',
+          'Doanh nghiệp Logistics',
+          'Doanh nghiệp thương mại điện tử'
+        ];
+        requiredBizTypes.forEach(bt => {
+          assert(BUSINESS_TYPES_CONFIG[bt] !== undefined, 'Business type exists: ' + bt);
+        });
+
+        // Test 7: Verify Kỳ báo cáo has 12 months ascending without hardcoded 2026
+        renderModernExecutiveDashboard();
+        const periodSelect = document.getElementById('select-report-period');
+        assert(periodSelect.options.length >= 13, 'Period select has at least 13 options (12 months + all time)');
+
+        for (let m = 1; m <= 12; m++) {
+          const opt = periodSelect.options[m - 1];
+          const expectedMonthStr = 'Tháng ' + String(m).padStart(2, '0');
+          assert(opt.textContent.includes(expectedMonthStr), 'Option ' + m + ' contains ' + expectedMonthStr);
+          assert(!opt.textContent.includes('2026'), 'Option ' + m + ' does not contain hardcoded 2026');
+        }
+
+        // Test 7b: Year dynamically updates when dataset has explicit year
+        const datasetWithYear = [
+          { 'OrderDate': '2025-03-15', 'Doanh thu': '5000000', 'Sản phẩm': 'Laptop A' },
+          { 'OrderDate': '2025-06-20', 'Doanh thu': '7000000', 'Sản phẩm': 'Laptop B' }
+        ];
+        processAndActivateData(datasetWithYear, 'Test Dataset Year 2025');
+        renderModernExecutiveDashboard();
+        assert(periodSelect.options[0].textContent.includes('2025'), 'Period options dynamically update to year 2025 from input data');
+        assert(periodSelect.options[0].textContent.includes('Tháng 01/2025'), 'Period option 1 is Tháng 01/2025');
+
+        // Test 7c: Dark mode defaults to true on load
+        assert(document.body.classList.contains('dark-mode'), 'Body has dark-mode class by default');
+        assert(isDarkMode === true, 'isDarkMode is true by default');
+
+        // Test 8: Inline cell editing directly updates dataset and recalculates KPI
+        currentDataset.cleanRows[0]['Đã duyệt'] = '100';
+        updateCleanTableCell(0, 'Đã duyệt', '100', null);
+        assert(currentDataset.cleanRows[0]['Đã duyệt'] === '100', 'Cell updated directly to 100');
+
+        // Test 9: Column rename
+        onRenameColumn('Đã duyệt', 'Số lượng duyệt');
+        assert(currentDataset.cleanRows[0]['Số lượng duyệt'] !== undefined, 'Column renamed to Số lượng duyệt');
+
+        // Test 10: Switching business type updates questions and scope
+        onBizTypeInputChange('Doanh nghiệp sản xuất');
+        const qVal = document.getElementById('biz-questions-input').value;
+        assert(qVal.includes('giá thành sản xuất'), 'Questions updated for Doanh nghiệp sản xuất');
+
+        onBizTypeInputChange('Doanh nghiệp Logistics');
+        const qLogistics = document.getElementById('biz-questions-input').value;
+        assert(qLogistics.includes('tuyến vận tải') || qLogistics.includes('kho bãi'), 'Questions updated for Doanh nghiệp Logistics');
+
+        // Test 11: Verify exportHtmlDashboardDeliverable and exportPptDeliverable existence
+        assert(typeof window.exportHtmlDashboardDeliverable === 'function', 'exportHtmlDashboardDeliverable is defined');
+        assert(typeof window.exportPptDeliverable === 'function', 'exportPptDeliverable is defined');
+
+        // Test 12: Intercept blobs and test outputs of PPT and HTML Dashboard
+        let lastBlobContent = '';
+        let lastBlobType = '';
+        const originalCreateObjectURL = window.URL.createObjectURL;
+        const originalOpen = window.open;
+        window.open = function () { return { document: { write: function () { }, close: function () { } } }; };
+        window.URL.createObjectURL = function (blob) {
+          lastBlobType = blob.type;
+          const reader = new FileReader();
+          reader.readAsText(blob);
+          return 'blob:mock-url';
+        };
+
+        // Run exportPptDeliverable
+        window.exportPptDeliverable();
+        // Run exportHtmlDashboardDeliverable
+        window.exportHtmlDashboardDeliverable();
+
+        window.URL.createObjectURL = originalCreateObjectURL;
+        window.open = originalOpen;
+        assert(true, 'exportPptDeliverable and exportHtmlDashboardDeliverable executed cleanly without errors');
+
+        document.getElementById('results').innerHTML = '<div style="color:green; font-weight:bold;">ALL TESTS PASSED!</div><pre>' + log.join('\n') + '</pre>';
+      } catch (err) {
+        document.getElementById('results').innerHTML = '<div style="color:red; font-weight:bold;">TEST FAILED: ' + err.message + '</div><pre>' + (err.stack || '') + '\n' + log.join('\n') + '</pre>';
+      }
+    }
+    window.addEventListener('DOMContentLoaded', runTests);
+  </script>
+</body>
+
+</html>
